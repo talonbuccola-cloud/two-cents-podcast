@@ -250,16 +250,18 @@
       gap: 18px;
     }
 
-    .card{
-      position:relative;
-      padding: 18px 18px 16px;
-      border-radius: var(--radius);
-      border: 1px solid var(--hairline);
-      background: rgba(17,19,26,.35);
-      overflow:hidden;
-      transition: transform .15s ease, border-color .15s ease;
-      min-height: 220px;
-    }
+  .card{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 18px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--hairline);
+  background: rgba(17,19,26,.35);
+  overflow:hidden;
+  transition: transform .15s ease, border-color .15s ease;
+  min-height: 220px;
+}
 
     .card::before{
       content:"";
