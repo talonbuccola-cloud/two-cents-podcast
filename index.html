@@ -500,7 +500,47 @@
   height: 28px;
   width: auto;
   display: block;
-}  
+} 
+    /* Subscribe section button layout */
+.sub-buttons{
+  display:flex;
+  justify-content:center;
+  gap:14px;
+  flex-wrap:wrap;
+  margin-top: 16px;
+}
+
+/* Affiliate row under Subscribe buttons */
+.affiliate-buttons{
+  display:flex;
+  justify-content:center;
+  gap:14px;
+  flex-wrap:wrap;
+  margin-top: 14px;
+}
+
+/* Plex affiliate button (matches your pill buttons) */
+.plex-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--hairline);
+  background: rgba(17,19,26,.35);
+  backdrop-filter: blur(6px);
+  text-decoration:none;
+  font-weight:600;
+  letter-spacing:.02em;
+  min-width: 220px;
+  justify-content:center;
+}
+
+.plex-btn img{
+  height: 18px;
+  width: auto;
+  display:block;
+}
   </style>
 </head>
 
@@ -677,51 +717,39 @@
   <div class="container">
     <h2 class="section-title">Subscribe & Listen</h2>
 
-    <div class="btnrow">
-      <a
-        class="btn primary"
-        href="https://open.spotify.com/show/2ZYylNYqZ2TKcAyTwAV9Bz"
-        target="_blank"
-        rel="noopener"
-      >
-        Subscribe on Spotify
-      </a>
+   <div class="sub-buttons">
+  <a class="btn btn-primary"
+     href="https://open.spotify.com/show/2ZYylNYqZ2TKcAyTwAV9Bz"
+     target="_blank"
+     rel="noopener">
+    Subscribe on Spotify
+  </a>
 
-      <a
-        class="btn"
-        href="https://www.youtube.com/channel/UCPq7QczF9lz9-KlfMcYU1hw"
-        target="_blank"
-        rel="noopener"
-      >
-        Subscribe on YouTube
-      </a>
+  <a class="btn"
+     href="https://www.youtube.com/channel/UCPq7QczF9lz9-KlfMcYU1hw"
+     target="_blank"
+     rel="noopener">
+    Subscribe on YouTube
+  </a>
 
-      <a
-        class="btn"
-        href="https://podcasts.apple.com/us/podcast/two-cents-we-see-scary-movies/id1809414939"
-        target="_blank"
-        rel="noopener"
-      >
-        Subscribe on Apple Podcasts
-      </a>
-    <a
-  class="btn plex-btn"
-  href="https://www.kqzyfj.com/click-101633208-15734677"
-  target="_blank"
-  rel="noopener"
-  aria-label="Watch on Plex (affiliate link)"
->
-  <img src="assets/plex-logo.png" alt="Plex">
-  Watch on Plex
-</a>
-<img
-  src="https://www.ftjcfx.com/image-101633208-15734677"
-  width="1"
-  height="1"
-  border="0"
-  alt=""
-/>
-    </div>
+  <a class="btn"
+     href="https://podcasts.apple.com/us/podcast/two-cents-we-see-scary-movies/id1809414939"
+     target="_blank"
+     rel="noopener">
+    Subscribe on Apple Podcasts
+  </a>
+</div>
+
+<div class="affiliate-buttons">
+  <a class="plex-btn"
+     href="https://www.kqzyfj.com/click-101633208-15734677"
+     target="_blank"
+     rel="noopener">
+    <img src="assets/plex-logo.png" alt="Plex">
+    <span>Watch on Plex</span>
+  </a>
+</div>
+
   </div>
 </section>
 
@@ -736,7 +764,6 @@
         </div>
       </div>
     </footer>
-
   </div>
 
   <script>
