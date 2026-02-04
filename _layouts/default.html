@@ -1,1 +1,775 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Two Cents: We See Scary Movies</title>
+  <meta name="description" content="A horror movie podcast with opinions, sarcasm, and absolutely no obligation to be polite." />
+  <link
+  rel="alternate"
+  type="application/rss+xml"
+  title="Two Cents: We See Scary Movies Podcast RSS"
+  href="https://anchor.fm/s/ffbeacf8/podcast/rss"
+/>
+
+  <!-- Fonts: Bebas Neue (headings) + Inter (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#0B0C0F;
+      --surface:#11131A;
+      --text:#F2EFEA;
+      --muted:#B9B2A8;
+      --red:#B3121D;
+      --hairline:rgba(242,239,234,.10);
+
+      --max:1200px;
+      --pad:24px;
+      --radius:10px;
+      --shadow:0 12px 40px rgba(0,0,0,.35);
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.55;
+      overflow-x:hidden;
+    }
+
+    /* Subtle cinematic grain */
+    body::before{
+      content:"";
+      position:fixed;
+      inset:0;
+      pointer-events:none;
+      opacity:.085;
+      mix-blend-mode:overlay;
+      background-image:
+        repeating-linear-gradient(0deg,
+          rgba(255,255,255,.04) 0px,
+          rgba(255,255,255,.04) 1px,
+          rgba(0,0,0,0) 2px,
+          rgba(0,0,0,0) 4px),
+        repeating-linear-gradient(90deg,
+          rgba(255,255,255,.03) 0px,
+          rgba(255,255,255,.03) 1px,
+          rgba(0,0,0,0) 2px,
+          rgba(0,0,0,0) 6px);
+      z-index:0;
+    }
+
+    a{color:inherit}
+    .wrap{
+      position:relative;
+      z-index:1;
+    }
+
+    .container{
+      width:100%;
+      max-width:var(--max);
+      margin:0 auto;
+      padding:0 var(--pad);
+    }
+
+    /* HERO */
+    .hero{
+      min-height:100vh;
+      display:flex;
+      align-items:center;
+      text-align:center;
+      padding:40px 0 24px;
+      position:relative;
+    }
+
+    .hero::after{
+      content:"";
+      position:absolute;
+      inset:-80px -40px;
+      background:
+        radial-gradient(700px 420px at 50% 30%, rgba(179,18,29,.18), rgba(0,0,0,0) 60%),
+        radial-gradient(900px 520px at 50% 100%, rgba(179,18,29,.10), rgba(0,0,0,0) 65%);
+      pointer-events:none;
+      z-index:0;
+    }
+
+    .hero-inner{
+      position:relative;
+      z-index:1;
+      width:100%;
+    }
+
+   .logo{
+  width:min(300px, 64vw);
+  height:auto;
+  display:block;
+  margin:0 auto 10px;
+  filter: drop-shadow(0 12px 26px rgba(0,0,0,.55));
+}
+
+    .site-title{
+      font-family:"Bebas Neue", Inter, sans-serif;
+      font-size: clamp(38px, 5vw, 64px);
+      letter-spacing:.04em;
+      margin: 10px 0 8px;
+      text-transform:uppercase;
+    }
+
+    .tagline{
+      max-width: 760px;
+      margin: 0 auto 26px;
+      color: var(--muted);
+      font-size: clamp(16px, 1.5vw, 18px);
+      font-weight: 300;
+    }
+
+    #about{
+  scroll-margin-top: 120px;
+}
+
+    .btnrow{
+      display:flex;
+      justify-content:center;
+      gap:14px;
+      flex-wrap:wrap;
+      margin-top: 8px;
+    }
+
+    .btn{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      padding: 12px 18px;
+      border-radius: 999px;
+      border: 1px solid var(--hairline);
+      background: rgba(17,19,26,.35);
+      backdrop-filter: blur(6px);
+      text-decoration:none;
+      font-weight:600;
+      letter-spacing:.02em;
+      min-width: 160px;
+      transition: transform .15s ease, border-color .15s ease, background .15s ease, color .15s ease;
+    }
+
+    .btn.primary{
+      border-color: rgba(179,18,29,.55);
+    }
+
+    .btn:hover{
+      transform: translateY(-1px);
+      border-color: rgba(242,239,234,.22);
+    }
+
+    .btn.primary:hover{
+      background: var(--red);
+      color: #0B0C0F;
+      border-color: var(--red);
+    }
+
+    .scrollcue{
+      margin-top: 28px;
+      color: rgba(242,239,234,.55);
+      font-size: 12px;
+      letter-spacing:.18em;
+      text-transform:uppercase;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      gap:12px;
+    }
+    .line{
+      width:44px;
+      height:1px;
+      background: rgba(179,18,29,.55);
+    }
+
+    /* SECTIONS */
+    section{
+      padding: 88px 0;
+    }
+
+    .section-title{
+      font-family:"Bebas Neue", Inter, sans-serif;
+      font-size: 40px;
+      letter-spacing:.06em;
+      text-transform:uppercase;
+      margin:0 0 22px;
+      display:flex;
+      align-items:center;
+      gap:14px;
+      justify-content:center;
+      text-align:center;
+    }
+    .section-title::before,
+    .section-title::after{
+      content:"";
+      height:1px;
+      width: min(140px, 16vw);
+      background: rgba(179,18,29,.55);
+    }
+
+    .panel{
+      background: rgba(17,19,26,.50);
+      border: 1px solid var(--hairline);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+    }
+
+    /* WHAT THIS IS */
+    .twocol{
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap: 26px;
+      padding: 26px;
+      align-items: center;
+    }
+
+    .twocol p{
+      margin:0;
+      color: rgba(242,239,234,.92);
+    }
+
+    .bullets{
+      border-left: 1px solid rgba(179,18,29,.55);
+      padding-left: 18px;
+      display:flex;
+      flex-direction:column;
+      gap:10px;
+      color: rgba(242,239,234,.85);
+    }
+    .bullets span{
+      display:block;
+    }
+
+    /* FEATURED */
+    .cards{
+      display:grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+  .card{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  padding: 18px 18px 16px;
+  border-radius: var(--radius);
+  border: 1px solid var(--hairline);
+  background: rgba(17,19,26,.35);
+  overflow:hidden;
+  transition: transform .15s ease, border-color .15s ease;
+  min-height: 220px;
+}
+
+    .card::before{
+      content:"";
+      position:absolute;
+      left:0; top:0; bottom:0;
+      width: 3px;
+      background: rgba(179,18,29,.0);
+      transition: background .15s ease;
+    }
+
+    .card:hover{
+      transform: translateY(-2px);
+      border-color: rgba(242,239,234,.18);
+    }
+    .card:hover::before{
+      background: rgba(179,18,29,.85);
+    }
+
+    .card h3{
+      font-family:"Bebas Neue", Inter, sans-serif;
+      margin:0 0 6px;
+      letter-spacing:.05em;
+      text-transform:uppercase;
+      font-size: 28px;
+    }
+
+    .meta{
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing:.08em;
+      text-transform:uppercase;
+      margin-bottom: 12px;
+    }
+
+    .desc{
+      color: rgba(242,239,234,.86);
+      margin:0 0 16px;
+      font-size: 14px;
+    }
+
+    .cardlinks{
+      display:flex;
+      gap:12px;
+      flex-wrap:wrap;
+      margin-top:auto;
+    }
+
+    .chip{
+      display:inline-flex;
+      align-items:center;
+      justify-content:center;
+      border: 1px solid rgba(242,239,234,.14);
+      padding: 8px 12px;
+      border-radius: 999px;
+      text-decoration:none;
+      font-size: 13px;
+      color: rgba(242,239,234,.90);
+      transition: background .15s ease, border-color .15s ease, color .15s ease;
+    }
+
+    .chip:hover{
+      border-color: rgba(179,18,29,.65);
+      background: rgba(179,18,29,.16);
+    }
+
+    /* THEME BAND */
+    .themeband{
+      padding: 68px 0;
+      background:
+        radial-gradient(900px 520px at 50% 20%, rgba(179,18,29,.22), rgba(0,0,0,0) 60%),
+        linear-gradient(180deg, rgba(179,18,29,.12), rgba(11,12,15,0));
+      border-top: 1px solid rgba(179,18,29,.25);
+      border-bottom: 1px solid rgba(179,18,29,.25);
+    }
+
+    .theme-kicker{
+      text-align:center;
+      color: rgba(242,239,234,.62);
+      letter-spacing:.22em;
+      text-transform:uppercase;
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+
+    .theme-title{
+      font-family:"Bebas Neue", Inter, sans-serif;
+      text-align:center;
+      font-size: clamp(44px, 6vw, 72px);
+      letter-spacing:.06em;
+      text-transform:uppercase;
+      margin:0 0 10px;
+    }
+
+    .theme-sub{
+      text-align:center;
+      color: rgba(242,239,234,.82);
+      margin:0 auto 18px;
+      max-width: 760px;
+    }
+
+    .center{
+      display:flex;
+      justify-content:center;
+    }
+
+    /* FROM THE HOSTS */
+    .hosts-blurb{
+  text-align:center;
+  margin: 0 0 18px;
+  color: rgba(242,239,234,.85);
+}
+    .rows{
+      display:grid;
+      gap: 14px;
+      padding: 22px;
+    }
+
+    .row{
+      display:flex;
+      justify-content:space-between;
+      gap: 18px;
+      align-items:center;
+      padding: 16px;
+      border: 1px solid var(--hairline);
+      border-radius: var(--radius);
+      background: rgba(17,19,26,.30);
+    }
+
+    .row h4{
+      font-family:"Bebas Neue", Inter, sans-serif;
+      margin:0 0 6px;
+      text-transform:uppercase;
+      letter-spacing:.05em;
+      font-size: 24px;
+    }
+
+    .row p{
+      margin:0;
+      color: rgba(242,239,234,.82);
+      max-width: 740px;
+      font-size: 14px;
+    }
+
+    .row a{
+      white-space:nowrap;
+    }
+
+    /* FOOTER */
+    footer{
+      padding: 46px 0 56px;
+      border-top: 1px solid var(--hairline);
+      color: rgba(242,239,234,.70);
+    }
+
+    .foot{
+      display:flex;
+      flex-wrap:wrap;
+      gap: 12px 22px;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    .foot strong{
+      color: rgba(242,239,234,.90);
+    }
+
+    .footlinks{
+      display:flex;
+      flex-wrap:wrap;
+      gap: 10px 16px;
+    }
+
+    .footlinks a{
+      color: rgba(242,239,234,.70);
+      text-decoration:none;
+      border-bottom: 1px solid transparent;
+    }
+    .footlinks a:hover{
+      color: rgba(242,239,234,.92);
+      border-bottom-color: rgba(179,18,29,.55);
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 980px){
+      .cards{grid-template-columns:1fr}
+      .twocol{grid-template-columns:1fr}
+      section{padding: 64px 0}
+      .twocol{padding: 20px}
+    }
+    @media (max-width: 520px){
+      :root{--pad:16px}
+      .btn{min-width: 150px}
+      .section-title{font-size: 34px}
+    }
+    /* FROM THE HOSTS – mobile fix */
+.row{
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.row p{
+  max-width: 100%;
+}
+
+.host-book{
+  margin: 12px 0;
+}
+.host-book img{
+  width: 90px;
+  height: auto;
+  border-radius: 6px;
+  display:block;
+  box-shadow: 0 10px 28px rgba(0,0,0,.45);
+}
+  /* Plex affiliate button */
+.plex-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 22px;
+  max-width: 260px;
+  margin: 24px auto 0;
+  background: #0f0f0f;
+  border: 1px solid rgba(255,255,255,0.25);
+  border-radius: 999px;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+.plex-btn img {
+  height: 28px;
+  width: auto;
+  display: block;
+} 
+    /* Subscribe section button layout */
+.sub-buttons{
+  display:flex;
+  justify-content:center;
+  gap:14px;
+  flex-wrap:wrap;
+  margin-top: 16px;
+}
+
+/* Affiliate row under Subscribe buttons */
+.affiliate-buttons{
+  display:flex;
+  justify-content:center;
+  gap:14px;
+  flex-wrap:wrap;
+  margin-top: 14px;
+}
+
+/* Plex affiliate button (matches your pill buttons) */
+.plex-btn{
+  display:inline-flex;
+  align-items:center;
+  gap:10px;
+  padding: 12px 18px;
+  border-radius: 999px;
+  border: 1px solid var(--hairline);
+  background: rgba(17,19,26,.35);
+  backdrop-filter: blur(6px);
+  text-decoration:none;
+  font-weight:600;
+  letter-spacing:.02em;
+  min-width: 220px;
+  justify-content:center;
+}
+
+.plex-btn img{
+  height: 18px;
+  width: auto;
+  display:block;
+}
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+
+    <header class="hero">
+      <div class="container hero-inner">
+        <img class="logo" src="assets/the-two-cents-logo.png" alt="Two Cents: We See Scary Movies logo">
+
+        <div class="site-title">Two Cents: We See Scary Movies</div>
+        <p class="tagline">A horror movie podcast with opinions, sarcasm, and absolutely no obligation to be polite.</p>
+
+        <div class="btnrow">
+          <!-- Replace # with your real links later -->
+          <a
+  class="btn primary"
+  href="https://open.spotify.com/episode/0TY4OZi6msgjfFgXMjPNan"
+  target="_blank"
+  rel="noopener"
+  aria-label="Listen to the latest episode"
+>
+  Listen Now
+</a>
+          <a class="btn" href="#episodes" aria-label="Jump to episodes">Episodes</a>
+        </div>
+
+        <div class="scrollcue" aria-hidden="true">
+          <span class="line"></span>
+          <span>Scroll</span>
+          <span class="line"></span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+
+      <section id="about">
+        <div class="container">
+          <h2 class="section-title">What This Podcast Is</h2>
+
+          <div class="panel twocol">
+            <p>
+              Two Cents is a bi-weekly horror podcast hosted by people who love the genre, hate bad decisions, and have no interest in pretending every movie is good.
+              Each month revolves around a theme, because chaos is better when it’s organized.
+            </p>
+
+            <div class="bullets" role="list">
+              <span role="listitem">Theme-based months</span>
+              <span role="listitem">Full spoilers, always</span>
+              <span role="listitem">Sarcasm encouraged</span>
+              <span role="listitem">Hot takes included</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="episodes">
+        <div class="container">
+          <h2 class="section-title">Featured Episodes</h2>
+
+          <div class="cards">
+           <article class="card">
+  <h3>The Clovehitch Killer</h3>
+  <div class="meta">Theme: Dads Are Deadly (June 2025)</div>
+  <p class="desc">
+    Dad’s got secrets — and they’re buried deep. After meeting a girl obsessed with true crime, a teen begins to question whether his father may be hiding something far worse than a quiet suburban life.
+  </p>
+  <div class="cardlinks">
+    <a class="chip"
+       href="https://open.spotify.com/episode/53t3PFHumou0NZ4xuTl3na"
+       target="_blank"
+       rel="noopener">
+       Listen
+    </a>
+  </div>
+</article>
+
+          <article class="card">
+  <h3>Eden Lake</h3>
+  <div class="meta">Theme: Lakes (May 2025)</div>
+  <p class="desc">
+    A romantic getaway turns into a brutal nightmare when a couple crosses paths with a group of violent locals and learns just how unforgiving isolation can be.
+  </p>
+  <div class="cardlinks">
+    <a class="chip"
+       href="https://open.spotify.com/episode/52xXQNcNjNsubtLLTru7Iy"
+       target="_blank"
+       rel="noopener">
+       Listen
+    </a>
+  </div>
+</article>
+
+          <article class="card">
+  <h3>April Fool’s Day (1986)</h3>
+  <div class="meta">Theme: Pranks (April 2025)</div>
+  <p class="desc">
+    A weekend reunion turns deadly when pranks escalate, friendships fracture, and no one can tell what’s a joke anymore — including the audience.
+  </p>
+  <div class="cardlinks">
+    <a class="chip"
+       href="https://open.spotify.com/episode/4kMNSRHQ3KWbEJMap80uEQ"
+       target="_blank"
+       rel="noopener">
+       Listen
+    </a>
+  </div>
+</article>
+          </div>
+        </div>
+      </section>
+
+      <section class="themeband">
+        <div class="container">
+          <div class="theme-kicker">Coming in March</div>
+<h2 class="theme-title">Kills Like Teen Spirit</h2>
+<p class="theme-sub">High school horror, bad friends, worse outcomes.</p>
+
+          <div class="center">
+            <a
+  class="btn primary"
+  href="https://open.spotify.com/show/2ZYylNYqZ2TKcAyTwAV9Bz"
+  target="_blank"
+  rel="noopener"
+>
+  View All Episodes
+</a>
+
+          </div>
+        </div>
+      </section>
+<section>
+  <div class="container">
+    <h2 class="section-title">From the Hosts</h2>
+    <p class="hosts-blurb">We don’t just podcast about horror. We write it too.</p>
+
+    <div class="panel rows">
+
+      <div class="row">
+        <div class="host-text">
+          <h4>Friendows</h4>
+         <p>
+  A dark short-story anthology by Talon and her son Weston, exploring control,
+  obsession, and the systems that profit from both. A family project with sharp teeth.
+</p>
+        </div>
+
+        <div class="host-book">
+          <a href="https://a.co/d/f16FpVM" target="_blank" rel="noopener">
+            <img src="assets/friendows-book-cover.jpg" alt="Friendows book cover" />
+          </a>
+        </div>
+
+        <a class="btn secondary" href="https://a.co/d/f16FpVM" target="_blank" rel="noopener">Learn More</a>
+      </div>
+
+      <div class="row">
+        <div class="host-text">
+          <h4>Dan’s Short Stories</h4>
+          <p>A collection of horror fiction currently in progress. More details coming soon.</p>
+        </div>
+
+        <span class="chip" aria-label="Coming soon">Coming Soon</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    </main>
+
+    <section>
+  <div class="container">
+    <h2 class="section-title">Subscribe & Listen</h2>
+
+   <div class="sub-buttons">
+  <a class="btn btn-primary"
+     href="https://open.spotify.com/show/2ZYylNYqZ2TKcAyTwAV9Bz"
+     target="_blank"
+     rel="noopener">
+    Subscribe on Spotify
+  </a>
+
+  <a class="btn"
+     href="https://www.youtube.com/channel/UCPq7QczF9lz9-KlfMcYU1hw"
+     target="_blank"
+     rel="noopener">
+    Subscribe on YouTube
+  </a>
+
+  <a class="btn"
+     href="https://podcasts.apple.com/us/podcast/two-cents-we-see-scary-movies/id1809414939"
+     target="_blank"
+     rel="noopener">
+    Subscribe on Apple Podcasts
+  </a>
+</div>
+
+<div class="affiliate-buttons">
+  <a class="plex-btn"
+     href="https://www.kqzyfj.com/click-101633208-15734677"
+     target="_blank"
+     rel="noopener">
+    <img src="assets/plex-logo.png" alt="Plex">
+    <span>Watch on Plex</span>
+  </a>
+</div>
+
+  </div>
+</section>
+
+    <footer>
+      <div class="container foot">
+        <div><strong>Two Cents: We See Scary Movies</strong> <span style="opacity:.7">© <span id="y"></span></span></div>
+        <div class="footlinks">
+         <a href="#episodes">Episodes</a>
+<a href="#about">About</a>
+<a href="mailto:twocentswssmpodcast@gmail.com?subject=Two%20Cents%20Podcast">Contact</a>
+<a href="/privacy.html" target="_blank" rel="noopener noreferrer">Privacy Policy</a>         
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById("y").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
 
