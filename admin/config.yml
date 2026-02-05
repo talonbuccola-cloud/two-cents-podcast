@@ -6,7 +6,7 @@ backend:
   auth_type: implicit
   base_url: https://decapcms.org
   auth_endpoint: auth
-  client_id: REPLACE_ME
+  client_id: Ov23li27X94pNemVUMcM
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
