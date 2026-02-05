@@ -3,6 +3,7 @@ backend:
   repo: talonbuccola-cloud/two-cents-podcast
   branch: main
   site_domain: twocentscarymovies.com
+  auth_type: implicit
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
