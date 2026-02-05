@@ -2,9 +2,8 @@ backend:
   name: github
   repo: talonbuccola-cloud/two-cents-podcast
   branch: main
-  site_domain: twocentscarymovies.com
-  auth_type: implicit
-  client_id: Ov23li27X94pNemVUMcM
+  base_url: https://decap-cms-oauth-one.vercel.app
+  auth_endpoint: auth
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
