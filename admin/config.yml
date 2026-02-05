@@ -1,6 +1,5 @@
 backend:
-  name: github
-  repo: talonbuccola-cloud/two-cents-podcast
+  name: git-gateway
   branch: main
 
 media_folder: "assets/uploads"
