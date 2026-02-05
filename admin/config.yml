@@ -4,8 +4,6 @@ backend:
   branch: main
   site_domain: twocentscarymovies.com
   auth_type: implicit
-  base_url: https://decapcms.org
-  auth_endpoint: auth
   client_id: Ov23li27X94pNemVUMcM
 
 media_folder: "assets/uploads"
