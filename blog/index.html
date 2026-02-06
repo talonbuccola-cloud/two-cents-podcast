@@ -4,16 +4,16 @@ title: Blog
 permalink: /blog/
 ---
 
-<h1>Blog</h1>
+<h1>Two Cents Blog</h1>
+<p>This is where our episode critiques live.</p>
 
 <ul>
-  {% assign blog_pages = site.pages | where_exp: "p", "p.dir == '/blog/'" | where_exp: "p", "p.name != 'index.html'" %}
-  {% assign blog_pages_sorted = blog_pages | sort: "date" | reverse %}
-
-  {% for post in blog_pages_sorted %}
+  {% for post in site.posts %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
-      {% if post.date %} — {{ post.date | date: "%B %d, %Y" }}{% endif %}
+      {% if post.date %}
+        — {{ post.date | date: "%B %d, %Y" }}
+      {% endif %}
     </li>
   {% endfor %}
 </ul>
