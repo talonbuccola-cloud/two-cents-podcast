@@ -3,12 +3,17 @@ layout: default
 title: April Fool’s Day (1986)
 date: 2025-04-01
 permalink: /blog/april-fools-day-1986/
+featured_image: ""
 ---
 April Fool's Day (1986): The Slasher That Isn't (And That's The Point)
+
+![](/assets/uploads/april-fools-day-movie-cover.webp)
 
 April Fool's Day is a weird little movie that sits in this fascinating space where it looks like a slasher, acts like a slasher, and then pulls the rug out from under you in a way that's either brilliant or infuriating depending on your tolerance for being messed with. For the record: we think it's brilliant.
 
 The setup is pure 1980s slasher: a group of college friends heads to a remote island mansion for spring break, hosted by the wealthy and increasingly unhinged Muffy. The house is full of creepy toys, jack-in-the-boxes, and unsettling vibes. People start disappearing. Blood shows up. Doors lock. All the pieces are there for a standard body-count movie, except April Fool's Day has zero interest in being that movie.
+
+![](/assets/uploads/everyone-at-the-dock.webp)
 
 What it does instead is commit to one of the most audacious fakeouts in horror history. The whole thing—every death, every scare, every moment of escalating terror—is staged. It's all part of an elaborate prank Muffy is running to test out her concept for a murder mystery bed-and-breakfast. And somehow, against all odds, it actually works.
 
@@ -33,5 +38,3 @@ Is it a perfect movie? No. The pacing drags in spots, and some of the red herrin
 April Fool's Day is a movie that rewards you for not taking it too seriously. It's playful, it's weird, and it's got just enough genuine craft behind it to make the whole thing work. If you go in expecting a straightforward slasher, you might walk away disappointed. But if you're open to a movie that's more interested in messing with your expectations than delivering what you came for, it's a genuinely fun time.
 
 It's a prank, but it's a good prank. And sometimes, that's enough.
-
-
