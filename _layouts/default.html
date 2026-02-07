@@ -619,10 +619,11 @@
 }
 
 .brand{
+  font-family: "Bebas Neue", Inter, sans-serif;
   font-weight: 800;
   letter-spacing: .18em;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 18px;
   color: rgba(242,239,234,.85);
 }
 
@@ -633,21 +634,35 @@
   justify-content:flex-end;
 }
 
-.site-nav a{
-  font-family: "Bebas Neue", Inter, sans-serif;
-  text-transform: uppercase;
-  letter-spacing: .08em;
+.site-nav a,
+.site-nav a:visited,
+.site-nav a:active{
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: 14px;
-  padding: 10px 14px;
-  color: rgba(242,239,234,.85);
-  border-radius: 999px;
-  border: 1px solid transparent;
-  transition: background .15s ease, border-color .15s ease, color .15s ease;
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+
+  color: rgba(242,239,234,.70);
+  text-decoration: none !important;
+
+  padding: 0;
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  background: transparent !important;
+
+  transition: color .15s ease, border-bottom-color .15s ease;
 }
 
 .site-nav a:hover{
   color: rgba(242,239,234,.92);
   border-bottom-color: rgba(179,18,29,.55);
+}
+
+.site-nav a::before,
+.site-nav a::after{
+  content: none !important;
 }
   </style>
 </head>
