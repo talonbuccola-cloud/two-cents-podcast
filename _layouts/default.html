@@ -600,7 +600,7 @@
   text-transform:uppercase;
   color: rgba(242,239,234,.62);
 }
-/* TOP NAV (match Home vibe) */
+/* TOP NAV — match Home page */
 .topbar{
   position: relative;
   z-index: 10;
@@ -618,15 +618,17 @@
   gap: 18px;
 }
 
+/* Match Home: smaller, cleaner, not Bebas */
 .brand{
-  font-family: "Bebas Neue", Inter, sans-serif;
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-weight: 800;
   letter-spacing: .18em;
   text-transform: uppercase;
-  font-size: 18px;
+  font-size: 14px;
   color: rgba(242,239,234,.85);
 }
 
+/* Match Home: plain links, no underline baseline */
 .site-nav{
   display:flex;
   gap: 22px;
@@ -640,26 +642,29 @@
   font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: 14px;
   font-weight: 600;
-  text-transform: none;
-  letter-spacing: 0;
-
   color: rgba(242,239,234,.70);
   text-decoration: none !important;
 
   padding: 0;
-  border: none;
-  border-bottom: 1px solid transparent;
-  border-radius: 0;
+  border: 0 !important;         /* kills underline */
+  border-bottom: 0 !important;  /* kills underline */
   background: transparent !important;
 
-  transition: color .15s ease, border-bottom-color .15s ease;
+  /* straight line hover, like Home */
+  background-image: linear-gradient(rgba(179,18,29,.55), rgba(179,18,29,.55));
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 1px;
+
+  transition: color .15s ease, background-size .15s ease;
 }
 
 .site-nav a:hover{
   color: rgba(242,239,234,.92);
-  border-bottom-color: rgba(179,18,29,.55);
+  background-size: 100% 1px; /* straight line appears */
 }
 
+/* Kill any leftover curved/underline accents from earlier code */
 .site-nav a::before,
 .site-nav a::after{
   content: none !important;
