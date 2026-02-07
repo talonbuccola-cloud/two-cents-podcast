@@ -150,11 +150,8 @@
       pointer-events:none;
       z-index:0;
     }
-    .hero-inner{
-      position:relative;
-      z-index:1;
-    }
-    /* BLOG PAGE TITLE (styles the H1 coming from {{ content }}) */
+   
+   /* BLOG PAGE TITLE (styles the H1 coming from {{ content }}) */
 .hero-inner h1{
   margin: 0 0 18px;
   font-family:"Bebas Neue", Inter, sans-serif;
@@ -163,35 +160,15 @@
   text-transform: uppercase;
   line-height: 1;
   color: rgba(242,239,234,.95);
-  position: relative;
   display: inline-block;
+  padding-bottom: 16px;
+  border-bottom: 1px solid rgba(179,18,29,.55);
+  width: min(520px, 100%);
 }
+
 .hero-inner{
   position:relative;
   z-index:1;
-}
-
-/* BLOG PAGE TITLE */
-.hero-inner h1{
-  margin: 0 0 18px;
-  font-family:"Bebas Neue", Inter, sans-serif;
-  font-size: clamp(44px, 6vw, 78px);
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  line-height: 1;
-  color: rgba(242,239,234,.95);
-  position: relative;
-  display: inline-block;
-}
-
-/* red divider line under the title */
-.hero-inner h1::after{
-  content:"";
-  display:block;
-  margin-top:16px;
-  height:1px;
-  width:min(520px, 100%);
-  background: rgba(179,18,29,.55);
 }
 
 /* red divider line under the title */
