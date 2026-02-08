@@ -7,7 +7,7 @@ featured_image: ""
 ---
 ## April Fool's Day (1986): The Slasher That Isn't (And That's The Point)    
 
-![](/assets/uploads/aprilfoolsdaymoviecover.webp){: style="float: right; margin-left: 1em; margin-bottom: 0.5em;"}
+![](/assets/uploads/aprilfoolsdaymoviecover.webp)
 
 April Fool’s Day is a weird little movie that sits in this fascinating space where it looks like a slasher, acts like a slasher, and then pulls the rug out from under you in a way that’s either brilliant or infuriating depending on your tolerance for being messed with. For the record: we think it’s brilliant.
 
