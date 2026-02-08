@@ -19,9 +19,7 @@ Part of why it works is that the movie is genuinely well-made. The direction is 
 
 But the real MVP here is Deborah Foreman as Muffy. 
 
-![](/assets/uploads/muffy.webp){: style="float: right; margin-left: 1em; margin-bottom: 0.5em;"}
-
-She’s doing double duty playing both Muffy and her supposedly evil twin Buffy, and she absolutely sells it. The performance is unhinged in the best way—you genuinely can’t tell if she’s dangerous, mentally unstable, or just fully committed to an elaborate bit. That ambiguity is what keeps the whole thing afloat. If you didn’t believe Muffy could actually be orchestrating something sinister, the movie would fall apart.
+![](/assets/uploads/muffy.webp){: style="float: right; margin-left: 1em; margin-bottom: 0.5em;"}She’s doing double duty playing both Muffy and her supposedly evil twin Buffy, and she absolutely sells it. The performance is unhinged in the best way—you genuinely can’t tell if she’s dangerous, mentally unstable, or just fully committed to an elaborate bit. That ambiguity is what keeps the whole thing afloat. If you didn’t believe Muffy could actually be orchestrating something sinister, the movie would fall apart.
 
 The rest of the cast is surprisingly strong too. These aren’t the usual interchangeable slasher victims; they feel like actual college friends with history and relationships.
 
