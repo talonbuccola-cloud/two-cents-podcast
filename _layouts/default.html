@@ -678,6 +678,31 @@
 .site-nav a::after{
   content: none !important;
 }
+ /* HERO AVATARS */
+.hero-avatars{
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+}
+
+.hero-avatars .avatar{
+  position: absolute;
+  bottom: 0;
+  width: 180px;
+  max-width: 30vw;
+  filter:
+    drop-shadow(0 0 28px rgba(179,18,29,.35))
+    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
+}
+
+.hero-avatars .left{
+  left: 6%;
+}
+
+.hero-avatars .right{
+  right: 6%;
+}   
  </style>
 
 <!-- Google tag (gtag.js) -->
