@@ -114,6 +114,30 @@
       width:100%;
     }
 
+.hero-avatars{
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 140px;               /* adjust up/down */
+  height: 220px;            /* gives a consistent “band” */
+  pointer-events: none;     /* so they don't block clicks */
+}
+
+.hero-avatars .avatar{
+  position: absolute;
+  bottom: 0;
+  width: 180px;             /* forces same visual size */
+  height: auto;
+  opacity: .95;
+}
+
+.hero-avatars .avatar.left{ left: 20px; }
+.hero-avatars .avatar.right{ right: 20px; }
+    
+.hero-avatars .avatar.right{
+  transform: scale(1.15);
+}
+
    .logo{
   width:min(300px, 64vw);
   height:auto;
