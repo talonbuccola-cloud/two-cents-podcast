@@ -692,9 +692,18 @@
   max-width: 30vw;
   filter:
     drop-shadow(0 0 28px rgba(179,18,29,.35))
-    mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-  -webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-}
+   mask-image: linear-gradient(
+  to bottom,
+  rgba(0,0,0,1) 0%,
+  rgba(0,0,0,1) 72%,
+  rgba(0,0,0,0) 100%
+);
+-webkit-mask-image: linear-gradient(
+  to bottom,
+  rgba(0,0,0,1) 0%,
+  rgba(0,0,0,1) 72%,
+  rgba(0,0,0,0) 100%
+);
 
 .hero-avatars .left{
   left: 6%;
