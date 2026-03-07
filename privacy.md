@@ -1,7 +1,11 @@
 ---
 layout: default
 title: Privacy Policy
+permalink: /privacy/
 ---
+
+{{ content | markdownify }}
+
 
 <h1>Privacy Policy</h1>
     <p class="muted">Last updated: January 16, 2026</p>
