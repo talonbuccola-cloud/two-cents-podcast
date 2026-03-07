@@ -5,6 +5,20 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Two Cents: We See Scary Movies</title>
   <meta name="description" content="A horror movie podcast with opinions, sarcasm, and absolutely no obligation to be polite." />
+
+  <!-- OpenGraph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Two Cents: We See Scary Movies">
+  <meta property="og:title" content="{{ page.title }}">
+  <meta property="og:description" content="A horror movie podcast with opinions, sarcasm, and absolutely no obligation to be polite.">
+  <meta property="og:url" content="{{ page.url | absolute_url }}">
+  <meta property="og:image" content="{{ '/assets/two-cents-cover.jpg' | absolute_url }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="A horror movie podcast with opinions, sarcasm, and absolutely no obligation to be polite.">
+  <meta name="twitter:image" content="{{ '/assets/two-cents-cover.jpg' | absolute_url }}">
   <link
   rel="alternate"
   type="application/rss+xml"
