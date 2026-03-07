@@ -147,6 +147,30 @@ class BlogComposerApp:
             value = value + "/"
         return value
 
+    def normalize_pasted_text(self, text: str) -> str:
+        if not text:
+            return text
+
+        replacements = {
+            "â€™": "'",
+            "â€œ": '"',
+            "â€": '"',
+            "â€”": "--",
+            "â€“": "--",
+            "Â": "",
+            "�": "",
+            "’": "'",
+            "“": '"',
+            "”": '"',
+            "—": "--",
+            "–": "--",
+        }
+
+        normalized = text
+        for bad, good in replacements.items():
+            normalized = normalized.replace(bad, good)
+        return normalized
+
     def on_title_changed(self, *_args):
         if self.auto_permalink_var.get():
             self.permalink_var.set(self.ensure_permalink("", self.title_var.get()))
@@ -284,6 +308,9 @@ class BlogComposerApp:
         permalink = self.ensure_permalink(self.permalink_var.get(), title)
         featured_image = self.featured_var.get().strip()
         body = self.body_text.get("1.0", "end").strip()
+
+        title = self.normalize_pasted_text(title)
+        body = self.normalize_pasted_text(body)
 
         if not title:
             messagebox.showerror("Missing Title", "Please enter a title.")
