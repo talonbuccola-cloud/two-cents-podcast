@@ -1,10 +1,18 @@
-﻿import datetime
+import datetime
 import re
 import shutil
 import unicodedata
 from pathlib import Path
 import tkinter as tk
+import tkinter.font as tkfont
 from tkinter import filedialog, messagebox, ttk
+
+try:
+    from PIL import Image, ImageTk
+
+    PIL_AVAILABLE = True
+except Exception:
+    PIL_AVAILABLE = False
 
 
 class BlogComposerApp:
@@ -23,6 +31,7 @@ class BlogComposerApp:
         self.images = []
         self.image_sources = set()
         self.preview_after_id = None
+        self.preview_image_refs = []
 
         self.reserved_upload_names = {p.name.lower() for p in self.uploads_dir.glob("*") if p.is_file()}
 
@@ -57,7 +66,9 @@ class BlogComposerApp:
         ttk.Checkbutton(top, text="Auto", variable=self.auto_permalink_var).grid(row=1, column=4, sticky="w", pady=(8, 0))
 
         ttk.Label(top, text="Featured Image").grid(row=2, column=0, sticky="w", pady=(8, 0))
-        ttk.Entry(top, textvariable=self.featured_var, width=62).grid(row=2, column=1, columnspan=2, sticky="ew", padx=(8, 10), pady=(8, 0))
+        ttk.Entry(top, textvariable=self.featured_var, width=62).grid(
+            row=2, column=1, columnspan=2, sticky="ew", padx=(8, 10), pady=(8, 0)
+        )
         ttk.Button(top, text="Choose Featured Image...", command=self.choose_featured_image).grid(
             row=2, column=3, columnspan=2, sticky="e", pady=(8, 0)
         )
@@ -89,11 +100,16 @@ class BlogComposerApp:
         self.body_text.bind("<<Paste>>", self.schedule_preview_update)
         self.body_text.bind("<ButtonRelease-1>", self.schedule_preview_update)
 
-        self.preview_text = tk.Text(preview, wrap="word", state="disabled", background="#f7f7f7")
-        preview_scroll = ttk.Scrollbar(preview, orient="vertical", command=self.preview_text.yview)
-        self.preview_text.configure(yscrollcommand=preview_scroll.set)
-        self.preview_text.pack(side="left", fill="both", expand=True)
+        self.preview_canvas = tk.Canvas(preview, background="#f7f7f7", highlightthickness=0)
+        preview_scroll = ttk.Scrollbar(preview, orient="vertical", command=self.preview_canvas.yview)
+        self.preview_canvas.configure(yscrollcommand=preview_scroll.set)
+        self.preview_canvas.pack(side="left", fill="both", expand=True)
         preview_scroll.pack(side="right", fill="y")
+
+        self.preview_inner = ttk.Frame(self.preview_canvas)
+        self.preview_window = self.preview_canvas.create_window((0, 0), window=self.preview_inner, anchor="nw")
+        self.preview_inner.bind("<Configure>", self.on_preview_inner_configure)
+        self.preview_canvas.bind("<Configure>", self.on_preview_canvas_configure)
 
         ttk.Button(right, text="Add Images...", command=self.add_images).pack(fill="x")
 
@@ -187,13 +203,151 @@ class BlogComposerApp:
             self.root.after_cancel(self.preview_after_id)
         self.preview_after_id = self.root.after(120, self.update_preview)
 
+    def on_preview_inner_configure(self, _event=None):
+        self.preview_canvas.configure(scrollregion=self.preview_canvas.bbox("all"))
+
+    def on_preview_canvas_configure(self, event=None):
+        if event is not None:
+            self.preview_canvas.itemconfigure(self.preview_window, width=event.width)
+        self.schedule_preview_update()
+
+    def preview_wraplength(self) -> int:
+        width = self.preview_canvas.winfo_width()
+        return max(340, width - 28)
+
+    def flush_paragraph(self, blocks, paragraph_lines):
+        if not paragraph_lines:
+            return
+        text = " ".join(line.strip() for line in paragraph_lines if line.strip())
+        if text:
+            blocks.append(("paragraph", text))
+        paragraph_lines.clear()
+
+    def parse_preview_blocks(self, body: str):
+        blocks = []
+        paragraph_lines = []
+        image_re = re.compile(r"^!\[[^\]]*\]\(([^)]+)\)(?:\{:\s*style=\"([^\"]*)\"\})?$")
+        heading_re = re.compile(r"^(#{1,6})\s+(.*)$")
+
+        for raw_line in body.splitlines():
+            line = raw_line.strip()
+
+            if not line:
+                self.flush_paragraph(blocks, paragraph_lines)
+                continue
+
+            if line.startswith("<div") and "clear: both" in line:
+                continue
+
+            hm = heading_re.match(line)
+            if hm:
+                self.flush_paragraph(blocks, paragraph_lines)
+                blocks.append(("heading", len(hm.group(1)), hm.group(2).strip()))
+                continue
+
+            im = image_re.match(line)
+            if im:
+                self.flush_paragraph(blocks, paragraph_lines)
+                blocks.append(("image", im.group(1).strip(), (im.group(2) or "").strip()))
+                continue
+
+            paragraph_lines.append(raw_line.rstrip())
+
+        self.flush_paragraph(blocks, paragraph_lines)
+        return blocks
+
+    def resolve_preview_image_path(self, web_path: str) -> Path:
+        if web_path.startswith("/"):
+            return self.repo_root / web_path.lstrip("/").replace("/", "\\")
+        return self.repo_root / web_path.replace("/", "\\")
+
+    def render_preview_image(self, parent, web_path: str, style: str):
+        placement = "center"
+        if "float: left" in style:
+            placement = "left"
+        elif "float: right" in style:
+            placement = "right"
+        elif "width: 100%" in style or "max-width: 100%" in style:
+            placement = "full"
+
+        anchor = "w"
+        if placement == "right":
+            anchor = "e"
+        elif placement == "center":
+            anchor = "center"
+
+        wrap = self.preview_wraplength()
+        path = self.resolve_preview_image_path(web_path)
+        if not path.exists() or not PIL_AVAILABLE:
+            msg = f"[Image: {web_path}]"
+            if not PIL_AVAILABLE:
+                msg += " (install Pillow for image preview)"
+            ttk.Label(parent, text=msg, anchor=anchor, justify="left", wraplength=wrap).pack(fill="x", pady=(4, 8))
+            return
+
+        try:
+            with Image.open(path) as img:
+                img = img.convert("RGB")
+                if placement == "full":
+                    target_w = wrap
+                else:
+                    target_w = int(wrap * 0.46)
+
+                ratio = target_w / max(1, img.width)
+                target_h = max(1, int(img.height * ratio))
+                img = img.resize((target_w, target_h), Image.LANCZOS)
+                photo = ImageTk.PhotoImage(img)
+        except Exception:
+            ttk.Label(parent, text=f"[Image failed to load: {web_path}]", anchor=anchor, wraplength=wrap).pack(fill="x", pady=(4, 8))
+            return
+
+        self.preview_image_refs.append(photo)
+        lbl = ttk.Label(parent, image=photo)
+        if placement == "full":
+            lbl.pack(anchor="center", pady=(6, 10))
+        else:
+            lbl.pack(anchor=anchor, pady=(4, 10))
+
     def update_preview(self):
         self.preview_after_id = None
         body = self.body_text.get("1.0", "end-1c")
-        self.preview_text.configure(state="normal")
-        self.preview_text.delete("1.0", "end")
-        self.preview_text.insert("1.0", body)
-        self.preview_text.configure(state="disabled")
+
+        for child in self.preview_inner.winfo_children():
+            child.destroy()
+        self.preview_image_refs.clear()
+
+        blocks = self.parse_preview_blocks(body)
+        wrap = self.preview_wraplength()
+        base_font = tkfont.nametofont("TkDefaultFont")
+
+        for block in blocks:
+            kind = block[0]
+            if kind == "heading":
+                level, text = block[1], block[2]
+                size = {1: 22, 2: 19, 3: 17, 4: 15, 5: 14, 6: 13}.get(level, 13)
+                font = (base_font.actual("family"), size, "bold")
+                ttk.Label(
+                    self.preview_inner,
+                    text=text,
+                    font=font,
+                    anchor="w",
+                    justify="left",
+                    wraplength=wrap,
+                ).pack(fill="x", pady=(10, 4))
+            elif kind == "paragraph":
+                text = block[1]
+                ttk.Label(
+                    self.preview_inner,
+                    text=text,
+                    anchor="w",
+                    justify="left",
+                    wraplength=wrap,
+                ).pack(fill="x", pady=(0, 9))
+            elif kind == "image":
+                web_path, style = block[1], block[2]
+                self.render_preview_image(self.preview_inner, web_path, style)
+
+        self.on_preview_inner_configure()
 
     def reserve_unique_name(self, base_name: str) -> str:
         base = Path(base_name)
