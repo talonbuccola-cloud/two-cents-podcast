@@ -3,22 +3,35 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Two Cents: We See Scary Movies</title>
-  <meta name="description" content="A horror movie podcast with opinions, sarcasm, and absolutely no obligation to be polite." />
+  {% assign seo_title = page.title | default: site.title %}
+  {% assign seo_description = page.description | default: page.excerpt | strip_html | strip_newlines | truncate: 160 | default: site.description %}
+  {% assign seo_image = page.featured_image | default: '/assets/two-cents-cover.jpg' %}
+  {% if seo_image contains '://' %}
+    {% assign seo_image_url = seo_image %}
+  {% else %}
+    {% assign seo_image_url = seo_image | absolute_url %}
+  {% endif %}
+
+  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ seo_description | escape }}" />
+  <link rel="canonical" href="{{ page.url | absolute_url }}" />
+  {% if page.permalink == '/404.html' %}
+  <meta name="robots" content="noindex,follow" />
+  {% endif %}
 
   <!-- OpenGraph -->
   <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Two Cents: We See Scary Movies">
-  <meta property="og:title" content="{{ page.title }}">
-  <meta property="og:description" content="A horror movie podcast with opinions, sarcasm, and absolutely no obligation to be polite.">
+  <meta property="og:site_name" content="{{ site.title }}">
+  <meta property="og:title" content="{{ seo_title }}">
+  <meta property="og:description" content="{{ seo_description | escape }}">
   <meta property="og:url" content="{{ page.url | absolute_url }}">
-  <meta property="og:image" content="{{ '/assets/two-cents-cover.jpg' | absolute_url }}">
+  <meta property="og:image" content="{{ seo_image_url }}">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="A horror movie podcast with opinions, sarcasm, and absolutely no obligation to be polite.">
-  <meta name="twitter:image" content="{{ '/assets/two-cents-cover.jpg' | absolute_url }}">
+  <meta name="twitter:title" content="{{ seo_title }}">
+  <meta name="twitter:description" content="{{ seo_description | escape }}">
+  <meta name="twitter:image" content="{{ seo_image_url }}">
   <link
   rel="alternate"
   type="application/rss+xml"

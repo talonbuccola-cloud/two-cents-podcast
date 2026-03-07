@@ -1,4 +1,6 @@
 title: "Two Cents: We See Scary Movies"
 description: "Horror movie podcast reviews, episode write-ups, and movie critiques."
+url: "https://twocentsscarymovies.com"
+baseurl: ""
 permalink: /blog/:title/
 markdown: kramdown
