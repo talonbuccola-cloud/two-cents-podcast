@@ -133,8 +133,11 @@ class BlogComposerApp:
         self.update_preview()
 
     def slugify(self, value: str) -> str:
-        normalized = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii")
-        slug = re.sub(r"[^a-zA-Z0-9]+", "-", normalized).strip("-").lower()
+        # Keep one canonical slug implementation for post filenames and permalinks.
+        normalized = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode("ascii").lower()
+        slug = re.sub(r"[^a-z0-9]+", "-", normalized)
+        slug = re.sub(r"-{2,}", "-", slug)
+        slug = slug.strip("-")
         return slug or "post"
 
     def ensure_permalink(self, raw: str, title: str) -> str:
@@ -173,7 +176,8 @@ class BlogComposerApp:
 
     def on_title_changed(self, *_args):
         if self.auto_permalink_var.get():
-            self.permalink_var.set(self.ensure_permalink("", self.title_var.get()))
+            slug = self.slugify(self.title_var.get())
+            self.permalink_var.set(f"/blog/{slug}/")
 
     def on_permalink_manual_edit(self, _event=None):
         self.auto_permalink_var.set(False)
