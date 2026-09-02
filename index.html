@@ -1,5 +1,6 @@
 ---
 layout: default
+description: "Watch the latest Two Cents horror movie podcast episode, explore our current monthly horror theme, and catch up on recent spoiler-filled reviews."
 ---
 
     <header class="hero">
@@ -10,15 +11,12 @@ layout: default
         <p class="tagline">A horror movie podcast with opinions, sarcasm, and absolutely no obligation to be polite.</p>
 
         <div class="btnrow">
-          <!-- Replace # with your real links later -->
           <a
   class="btn primary"
-  href="https://open.spotify.com/episode/0TY4OZi6msgjfFgXMjPNan"
-  target="_blank"
-  rel="noopener"
-  aria-label="Listen to the latest episode"
+  href="#latest"
+  aria-label="Watch the latest episode"
 >
-  Listen Now
+  Watch Latest
 </a>
           <a class="btn" href="#episodes" aria-label="Jump to episodes">Episodes</a>
         </div>
@@ -54,67 +52,71 @@ layout: default
         </div>
       </section>
 
+      <section id="latest">
+        <div class="container">
+          <h2 class="section-title">Watch the Latest Episode</h2>
+          <div class="latest-episode panel">
+            <div class="video-frame">
+              <iframe
+                src="https://www.youtube-nocookie.com/embed/{{ site.data.homepage.latest_episode.youtube_id }}"
+                title="{{ site.data.homepage.latest_episode.title }} ({{ site.data.homepage.latest_episode.year }}) horror movie review"
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen>
+              </iframe>
+            </div>
+            <div class="latest-copy">
+              <div class="meta">Latest Full Episode</div>
+              <h3>{{ site.data.homepage.latest_episode.title }} ({{ site.data.homepage.latest_episode.year }})</h3>
+              <p>{{ site.data.homepage.latest_episode.description }}</p>
+              <a
+                class="btn primary"
+                href="{{ site.data.homepage.latest_episode.youtube_url }}"
+                target="_blank"
+                rel="noopener">
+                Watch on YouTube
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="episodes">
         <div class="container">
           <h2 class="section-title">Featured Episodes</h2>
 
           <div class="cards">
-           <article class="card">
-  <h3>The Clovehitch Killer</h3>
-  <div class="meta">Theme: Dads Are Deadly (June 2025)</div>
-  <p class="desc">
-    Dad’s got secrets — and they’re buried deep. After meeting a girl obsessed with true crime, a teen begins to question whether his father may be hiding something far worse than a quiet suburban life.
-  </p>
-  <div class="cardlinks">
-    <a class="chip"
-       href="https://open.spotify.com/episode/53t3PFHumou0NZ4xuTl3na"
-       target="_blank"
-       rel="noopener">
-       Listen
-    </a>
-  </div>
-</article>
-
+          {% for episode in site.data.homepage.featured_episodes %}
           <article class="card">
-  <h3>Cherry Falls</h3>
-  <div class="meta">Theme: Kills Like Teen Spirit</div>
-  <p class="desc">
-    A small town is thrown into chaos when a killer begins targeting high school virgins. As prom night approaches, panic spreads and the rules of slasher movies are turned upside down.
-  </p>
-  <div class="cardlinks">
-    <a class="chip"
-       href="https://open.spotify.com/episode/3b0cDgS8oF7bKyf8IIdqJP"
-       target="_blank"
-       rel="noopener">
-       Listen
-    </a>
-  </div>
-</article>
-
-          <article class="card">
-  <h3>April Fool’s Day (1986)</h3>
-  <div class="meta">Theme: Pranks (April 2025)</div>
-  <p class="desc">
-    A weekend reunion turns deadly when pranks escalate, friendships fracture, and no one can tell what’s a joke anymore — including the audience.
-  </p>
-  <div class="cardlinks">
-    <a class="chip"
-       href="https://open.spotify.com/episode/4kMNSRHQ3KWbEJMap80uEQ"
-       target="_blank"
-       rel="noopener">
-       Listen
-    </a>
-  </div>
-</article>
+            <h3>{{ episode.title }} ({{ episode.year }})</h3>
+            <div class="meta">Theme: {{ episode.theme }}</div>
+            <p class="desc">{{ episode.description }}</p>
+            <div class="cardlinks">
+              <a
+                class="chip"
+                href="{{ episode.youtube_url }}"
+                target="_blank"
+                rel="noopener">
+                Watch
+              </a>
+            </div>
+          </article>
+          {% endfor %}
           </div>
         </div>
       </section>
 
       <section class="themeband">
         <div class="container">
-          <div class="theme-kicker">April's Theme</div>
-<h2 class="theme-title">You Make Me Sick!</h2>
-<p class="theme-sub">Infection, parasites, and outbreaks--this month's horror gets under your skin in the worst ways.</p>
+          <div class="theme-kicker">{{ site.data.homepage.current_theme.month }}'s Theme</div>
+          <h2 class="theme-title">{{ site.data.homepage.current_theme.title }}</h2>
+          <p class="theme-sub">{{ site.data.homepage.current_theme.description }}</p>
+          <div class="theme-movies" aria-label="Movies in this month's theme">
+            {% for movie in site.data.homepage.current_theme.movies %}
+            <span>{{ movie }}</span>
+            {% endfor %}
+          </div>
 
           <div class="center">
             <a
@@ -217,4 +219,3 @@ layout: default
   </script>
 </body>
 </html>
-
