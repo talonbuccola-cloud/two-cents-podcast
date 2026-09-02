@@ -1,6 +1,6 @@
 ---
 layout: default
-description: "Watch the latest Two Cents horror movie podcast episode, explore our current monthly horror theme, and catch up on recent spoiler-filled reviews."
+description: "Watch full episodes of the Two Cents horror movie podcast, explore our current monthly horror theme, and catch up on spoiler-filled horror movie reviews."
 ---
 
     <header class="hero">
@@ -53,12 +53,12 @@ description: "Watch the latest Two Cents horror movie podcast episode, explore o
 
       <section id="latest">
         <div class="container">
-          <h2 class="section-title">Watch the Latest Episode</h2>
+          <h2 class="section-title">Watch Full Episodes</h2>
           <div class="latest-episode panel">
             <div class="video-frame">
               <iframe
-                src="https://www.youtube-nocookie.com/embed/{{ site.data.homepage.latest_episode.youtube_id }}"
-                title="{{ site.data.homepage.latest_episode.title }} ({{ site.data.homepage.latest_episode.year }}) horror movie review"
+                src="https://www.youtube-nocookie.com/embed/videoseries?list=PLVBhgEcNsKbo"
+                title="Full Episodes | Two Cents: We See Scary Movies"
                 loading="lazy"
                 referrerpolicy="strict-origin-when-cross-origin"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -66,15 +66,15 @@ description: "Watch the latest Two Cents horror movie podcast episode, explore o
               </iframe>
             </div>
             <div class="latest-copy">
-              <div class="meta">Latest Full Episode</div>
-              <h3>{{ site.data.homepage.latest_episode.title }} ({{ site.data.homepage.latest_episode.year }})</h3>
-              <p>{{ site.data.homepage.latest_episode.description }}</p>
+              <div class="meta">Full Episode Playlist</div>
+              <h3>Pick a movie. Question every decision.</h3>
+              <p>Watch our full-length, spoiler-filled horror movie reviews without digging through Shorts and promo clips. The newest episode appears first, and new full episodes are added here as they are released.</p>
               <a
                 class="btn primary"
-                href="{{ site.data.homepage.latest_episode.youtube_url }}"
+                href="https://www.youtube.com/playlist?list=PLVBhgEcNsKbo"
                 target="_blank"
                 rel="noopener">
-                Watch on YouTube
+                Open Playlist on YouTube
               </a>
             </div>
           </div>
