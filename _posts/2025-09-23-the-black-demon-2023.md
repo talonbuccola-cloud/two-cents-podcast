@@ -85,8 +85,6 @@ Talon describes *The Black Demon* as a movie that temporarily made her stupid, a
 
 Only Chato and Junior remain on the failing rig, along with their surprisingly well-behaved Chihuahua, Toro. Most of the crew either fled or died, the radio barely works, and Nixon Oil has ignored requests for help.
 
-![Paul Chato and Junior examine plans aboard the El Diamante oil rig in The Black Demon 2023](/assets/uploads/the-black-demon/paul-chato-junior.webp){: style="float: left; max-width: 46%; height: auto; margin: 0.25em 1.1em 0.9em 0;"}
-
 Then Paul’s family boat appears.
 
 Chato and Junior start firing flares and pounding metal against the rig.
@@ -155,8 +153,6 @@ Chato becomes increasingly insistent that the shark represents punishment for wh
 
 The company came promising jobs and prosperity. Then regulations were loosened, safety was ignored, the rig deteriorated, and the town paid the price.
 
-![Paul and his family stranded with Chato and Toro on the oil rig in The Black Demon 2023](/assets/uploads/the-black-demon/stranded-on-rig.webp){: style="float: right; max-width: 46%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
-
 The movie has already communicated this clearly.
 
 Then it decides subtlety is for cowards.
@@ -188,6 +184,8 @@ While the adults work on escape plans, Ines searches through documents on the ri
 She discovers safety reports showing years of violations and ignored problems.
 
 At the bottom are Paul’s signatures.
+
+![Paul Chato and Junior examine plans aboard the El Diamante oil rig in The Black Demon 2023](/assets/uploads/the-black-demon/paul-chato-junior.webp){: style="float: left; max-width: 46%; height: auto; margin: 0.25em 1.1em 0.9em 0;"}
 
 Now the entire movie snaps into focus.
 
@@ -222,6 +220,8 @@ He helped build it.
 ### Audrey Becomes MacGyver While Dad Finds Religion
 
 With the timer running down, everyone starts preparing to escape.
+
+![Paul and his family stranded with Chato and Toro on the oil rig in The Black Demon 2023](/assets/uploads/the-black-demon/stranded-on-rig.webp){: style="float: right; max-width: 46%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
 
 Audrey suddenly becomes the most practically useful person on the rig.
 
