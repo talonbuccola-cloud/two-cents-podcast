@@ -41,7 +41,7 @@ We meet Stephanie riding her bike home, where Susan is outside raking a truly un
 
 Jerry has brought her a puppy, clearly hoping one adorable dog might help win her over. Stephanie loves the puppy, but when Jerry touches her arm and calls her “my girl,” she flinches and pulls away.
 
-![Jerry gives Stephanie a puppy while Susan watches in The Stepfather 1987](/assets/uploads/the-stepfather/puppy.webp){: style="display: block; width: min(72%, 760px); max-width: 100%; height: auto; margin: 1.5em auto; clear: both;"}
+![Jerry gives Stephanie a puppy while Susan watches in The Stepfather 1987](/assets/uploads/the-stepfather/puppy.webp){: style="float: left; max-width: 34%; height: auto; margin: 0.25em 1.1em 0.9em 0; clear: both;"}
 
 Now the conflict inside Jerry’s new family is clear. Stephanie does not know what he has done, but something about him feels wrong to her. We know her instincts are considerably better than she realizes.
 
@@ -99,7 +99,7 @@ One of them wonders what could make a man kill his whole family.
 
 Jerry answers, “Maybe they disappointed him.”
 
-![Jerry and Stephanie at the neighborhood barbecue in The Stepfather 1987](/assets/uploads/the-stepfather/barbecue.webp){: style="display: block; width: min(72%, 760px); max-width: 100%; height: auto; margin: 1.5em auto; clear: both;"}
+![Jerry and Stephanie at the neighborhood barbecue in The Stepfather 1987](/assets/uploads/the-stepfather/barbecue.webp){: style="float: right; max-width: 46%; height: auto; margin: 0.25em 0 0.9em 1.1em; clear: both;"}
 
 Nobody stops chewing.
 
@@ -125,7 +125,7 @@ He opens the envelope, sees his old face, has another basement meltdown, replace
 
 She thinks she was wrong.
 
-![Jill Schoelen as a suspicious Stephanie in The Stepfather 1987](/assets/uploads/the-stepfather/suspicious-stephanie.webp){: style="display: block; width: min(72%, 760px); max-width: 100%; height: auto; margin: 1.5em auto; clear: both;"}
+![Jill Schoelen as a suspicious Stephanie in The Stepfather 1987](/assets/uploads/the-stepfather/suspicious-stephanie.webp){: style="float: left; max-width: 46%; height: auto; margin: 0.25em 1.1em 0.9em 0; clear: both;"}
 
 ### Do Not Psychoanalyze the Realtor
 
@@ -185,7 +185,7 @@ His shooting stance looks like he is trying to use a public restroom without tou
 
 The peace does not last.
 
-![Stephanie and Jerry put up the birdhouse in The Stepfather 1987](/assets/uploads/the-stepfather/birdhouse.webp){: style="display: block; width: min(72%, 760px); max-width: 100%; height: auto; margin: 1.5em auto; clear: both;"}
+![Stephanie and Jerry put up the birdhouse in The Stepfather 1987](/assets/uploads/the-stepfather/birdhouse.webp){: style="float: right; max-width: 46%; height: auto; margin: 0.25em 0 0.9em 1.1em; clear: both;"}
 
 Stephanie accepts a ride home from her classmate Paul, and the two share a kiss at the front door.
 
@@ -269,7 +269,7 @@ For one horrible second, we thought the movie was going there.
 
 Jerry instead pets the dog.
 
-![A bloodied Jerry holds the family dog and a knife in The Stepfather 1987](/assets/uploads/the-stepfather/jerry-knife-dog.webp){: style="display: block; width: min(72%, 760px); max-width: 100%; height: auto; margin: 1.5em auto; clear: both;"}
+![A bloodied Jerry holds the family dog and a knife in The Stepfather 1987](/assets/uploads/the-stepfather/jerry-knife-dog.webp){: style="float: left; max-width: 46%; height: auto; margin: 0.25em 1.1em 0.9em 0; clear: both;"}
 
 Good.
 
@@ -311,7 +311,7 @@ Apparently Jerry’s commitment to traditional family values includes refusing t
 
 The knife lies near the top of the stairs. Jerry crawls toward it. Stephanie reaches it first, and after a struggle she drives it into his chest.
 
-![Jerry Blake after being stabbed during the final confrontation in The Stepfather 1987](/assets/uploads/the-stepfather/jerry-stabbed.webp){: style="display: block; width: min(72%, 760px); max-width: 100%; height: auto; margin: 1.5em auto; clear: both;"}
+![Jerry Blake after being stabbed during the final confrontation in The Stepfather 1987](/assets/uploads/the-stepfather/jerry-stabbed.webp){: style="float: right; max-width: 46%; height: auto; margin: 0.25em 0 0.9em 1.1em; clear: both;"}
 
 Jerry stands there for one last moment.
 
