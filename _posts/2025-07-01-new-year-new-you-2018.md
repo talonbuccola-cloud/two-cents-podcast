@@ -158,7 +158,7 @@ Alexis follows her, and Kayla reminds her that this was supposed to be intimidat
 
 Alexis insists they simply need to push harder.
 
-![Danielle covered in a green beauty mask while held captive in New Year New You 2018](/assets/uploads/new-year-new-you/danielle-mask.webp){: style="float: right; max-width: 46%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
+![Danielle covered in a green beauty mask while held captive in New Year New You 2018](/assets/uploads/new-year-new-you/danielle-mask.webp){: style="float: right; clear: both; max-width: 46%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
 
 Meanwhile, Danielle identifies the weakest part of the conspiracy.
 
