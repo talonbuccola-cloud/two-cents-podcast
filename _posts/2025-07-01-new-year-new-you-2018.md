@@ -152,13 +152,13 @@ Danielle barely reacts, which makes Alexis even angrier. It is the same struggle
 
 Then Alexis uses a shard from a broken mirror to hack off a chunk of Danielle’s hair.
 
-![Danielle covered in a green beauty mask while held captive in New Year New You 2018](/assets/uploads/new-year-new-you/danielle-mask.webp){: style="float: right; max-width: 46%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
-
 Kayla has had enough. She retreats to the bathroom and calls her girlfriend, Frankie, who offers to pick her up. Kayla insists she can make it through the night and see her tomorrow.
 
 Alexis follows her, and Kayla reminds her that this was supposed to be intimidation, not torture. Their plan was to scare Danielle into admitting what happened.
 
 Alexis insists they simply need to push harder.
+
+![Danielle covered in a green beauty mask while held captive in New Year New You 2018](/assets/uploads/new-year-new-you/danielle-mask.webp){: style="float: right; max-width: 46%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
 
 Meanwhile, Danielle identifies the weakest part of the conspiracy.
 
