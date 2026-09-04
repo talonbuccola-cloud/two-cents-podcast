@@ -129,8 +129,6 @@ Alexis also lays out the damage Danielle did to the rest of them. Chloe’s weig
 
 Danielle’s response is astonishingly efficient.
 
-![Alexis confronts Danielle during the New Years Eve reunion in New Year New You 2018](/assets/uploads/new-year-new-you/alexis-confronts-danielle.webp){: style="float: right; max-width: 42%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
-
 She turns the attempted confession into content.
 
 On camera, she admits only that Kelsey was bullied and that she wishes she had done more to stop it. She presents herself as another imperfect teenager carrying regret.
@@ -141,6 +139,8 @@ Alexis is furious.
 
 Talon was too.
 
+![Alexis confronts Danielle during the New Years Eve reunion in New Year New You 2018](/assets/uploads/new-year-new-you/alexis-confronts-danielle.webp){: style="float: right; max-width: 42%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
+
 ### Camera Ready Means Lipstick, Clay, and a Piece of Broken Mirror
 {: style="clear: none;"}
 
@@ -148,11 +148,11 @@ Once Danielle refuses to confess, Alexis starts unraveling.
 
 She covers Danielle’s face with a green beauty mask, smears lipstick around her mouth, destroys her makeup, and announces that she is getting her “camera ready.”
 
-![Danielle covered in a green beauty mask while held captive in New Year New You 2018](/assets/uploads/new-year-new-you/danielle-mask.webp){: style="float: right; max-width: 46%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
-
 Danielle barely reacts, which makes Alexis even angrier. It is the same struggle for control Dan hated during the resolution video, only now it has mutated into something uglier.
 
 Then Alexis uses a shard from a broken mirror to hack off a chunk of Danielle’s hair.
+
+![Danielle covered in a green beauty mask while held captive in New Year New You 2018](/assets/uploads/new-year-new-you/danielle-mask.webp){: style="float: right; max-width: 46%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
 
 Kayla has had enough. She retreats to the bathroom and calls her girlfriend, Frankie, who offers to pick her up. Kayla insists she can make it through the night and see her tomorrow.
 
@@ -252,6 +252,8 @@ Chloe, who recently seemed disturbed by accidental murder, stabs Frankie to deat
 
 Manifestation works fast.
 
+![A bloodied Alexis faces herself in a mirror during the final confrontation in New Year New You 2018](/assets/uploads/new-year-new-you/alexis-final.webp){: style="float: right; max-width: 44%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
+
 ### New Year, New Influencer
 {: style="clear: none;"}
 
@@ -262,8 +264,6 @@ She arms herself with one of the golf clubs the movie practically introduced wit
 Finally.
 
 The golf club has fulfilled its destiny.
-
-![A bloodied Alexis faces herself in a mirror during the final confrontation in New Year New You 2018](/assets/uploads/new-year-new-you/alexis-final.webp){: style="float: right; max-width: 44%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
 
 When Danielle and Chloe come upstairs, Alexis swings.
 
