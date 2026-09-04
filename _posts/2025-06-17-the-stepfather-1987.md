@@ -54,6 +54,7 @@ Grief is personal.
 Susan is efficient.
 
 ### Scary Jerry Wants a Sitcom Family
+{: style="clear: none;"}
 
 Stephanie is already struggling at school. She has been suspended repeatedly and sees psychiatrist Dr. Bondurant, with whom she has an easy, joking relationship. She tells him that losing her father was hard enough without gaining Jerry.
 
@@ -128,6 +129,7 @@ She thinks she was wrong.
 ![Jill Schoelen as a suspicious Stephanie in The Stepfather 1987](/assets/uploads/the-stepfather/suspicious-stephanie.webp){: style="float: left; max-width: 46%; height: auto; margin: 0.25em 1.1em 0.9em 0; clear: both;"}
 
 ### Do Not Psychoanalyze the Realtor
+{: style="clear: none;"}
 
 Dr. Bondurant is less convinced.
 
@@ -278,6 +280,7 @@ Murder the therapist. Murder Jim. Attempt to murder your wife and stepdaughter.
 Leave the dog out of it.
 
 ### Home Sweet Home Finally Falls Apart
+{: style="clear: none;"}
 
 Jim arrives before Jerry can reach Stephanie.
 
