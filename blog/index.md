@@ -8,7 +8,7 @@ title: Blog
     <li>
       <a class="blog-card" href="{{ post.url | relative_url }}">
         {% if post.featured_image %}
-          <img src="{{ post.featured_image }}" alt="{{ post.title }}" class="post-thumbnail">
+          <img src="{{ post.featured_image }}" alt="{{ post.title }}" class="post-thumbnail" style="object-position: {{ post.thumbnail_position | default: 'center top' }};">
         {% endif %}
         <h2 class="blog-title">{{ post.title }}</h2>
         <p class="blog-meta">
