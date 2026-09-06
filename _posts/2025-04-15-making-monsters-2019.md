@@ -4,6 +4,7 @@ title: "Making Monsters (2019)"
 date: 2025-04-22
 permalink: /blog/making-monsters-2019/
 featured_image: "/assets/uploads/making-monsters-cover.webp"
+thumbnail_position: "center bottom"
 ---
 ## Making Monsters (2019): When Pranks Meet Dark Web Snuff Films
 

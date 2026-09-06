@@ -4,6 +4,7 @@ title: "No Escape / Follow Me (2020)"
 date: 2025-07-22
 permalink: /blog/no-escape-follow-me-2020/
 featured_image: "/assets/uploads/no-escape-follow-me/poster.webp"
+thumbnail_position: "center bottom"
 ---
 
 ## *No Escape / Follow Me (2020)*: Like, Subscribe, and Please Stop Killing My Friends

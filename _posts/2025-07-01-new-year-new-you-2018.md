@@ -4,6 +4,7 @@ title: "New Year, New You (2018)"
 date: 2025-07-01
 permalink: /blog/new-year-new-you-2018/
 featured_image: "/assets/uploads/new-year-new-you/poster.webp"
+thumbnail_position: "center bottom"
 ---
 
 ## *New Year, New You (2018)*: Manifest Your Best Self, Murder Your Worst Friends

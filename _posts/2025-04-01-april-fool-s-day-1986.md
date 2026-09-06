@@ -4,6 +4,7 @@ title: April Fool’s Day (1986)
 date: 2025-04-01
 permalink: /blog/april-fool-s-day-1986/
 featured_image: "/assets/uploads/April Fools DAy Movie Cover.webp"
+thumbnail_position: "center top"
 ---
 ## April Fool's Day (1986): The Slasher That Isn't (And That's The Point)    
 

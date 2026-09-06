@@ -4,6 +4,7 @@ title: "The Black Demon (2023)"
 date: 2025-09-23
 permalink: /blog/the-black-demon-2023/
 featured_image: "/assets/uploads/the-black-demon/poster.webp"
+thumbnail_position: "center bottom"
 ---
 
 ## *The Black Demon (2023)*: Corporate Greed, Ancient Gods, and One Extremely Large Shark

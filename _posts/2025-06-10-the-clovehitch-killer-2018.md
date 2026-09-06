@@ -4,6 +4,7 @@ title: "The Clovehitch Killer (2018)"
 date: 2025-06-10
 permalink: /blog/the-clovehitch-killer-2018/
 featured_image: "/assets/uploads/movie-cover.webp"
+thumbnail_position: "center bottom"
 ---
 ## The Clovehitch Killer (2018): When Dad's Hobby Isn't Woodworking
 

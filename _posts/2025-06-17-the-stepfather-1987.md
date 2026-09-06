@@ -4,6 +4,7 @@ title: "The Stepfather (1987)"
 date: 2025-06-17
 permalink: /blog/the-stepfather-1987/
 featured_image: "/assets/uploads/the-stepfather/poster.webp"
+thumbnail_position: "center bottom"
 ---
 
 ## *The Stepfather (1987)*: Father Knows Best, Until Father Starts Killing Everybody
