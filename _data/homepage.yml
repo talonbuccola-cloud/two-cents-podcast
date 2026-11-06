@@ -1,31 +1,25 @@
 latest_episode:
-  title: "Deadly Friend"
-  year: 1986
-  youtube_id: "9XYtJlzbad8"
-  youtube_url: "https://www.youtube.com/watch?v=9XYtJlzbad8"
-  description: "Robot grief, bad science, basketball violence, and one teenage plan that should have been stopped at every possible stage."
+  title: "The Faculty"
+  year: 1998
+  youtube_id: "lIz1dwqr_h4"
+  youtube_url: "https://www.youtube.com/watch?v=lIz1dwqr_h4"
+  description: "The teachers are aliens, the drug dealer is our only hope, and the fate of the school comes down to powdered caffeine and a paper cutter."
 
 featured_episodes:
-  - title: "Deadly Friend"
-    year: 1986
-    theme: "Wired to Kill"
-    youtube_url: "https://www.youtube.com/watch?v=9XYtJlzbad8"
-    description: "A grieving teenager rebuilds the girl next door with his robot's brain, because apparently grief counseling was unavailable. Basketballs, bad science, and one unforgettable head injury follow."
-  - title: "Chopping Mall"
-    year: 1986
-    theme: "Wired to Kill"
-    youtube_url: "https://www.youtube.com/watch?v=f5FVP9uddtY"
-    description: "A mall's new security robots go from mildly overqualified to wildly homicidal, leaving eight teenagers trapped after hours with lasers, bad decisions, and not a single bit of chopping."
-  - title: "Children of the Corn"
-    year: 1984
-    theme: "Red, White & Screwed"
-    youtube_url: "https://www.youtube.com/watch?v=esbKerLe4Gc"
-    description: "A teenager investigating disappearances discovers that the local children have traded bedtime for biblical murder under the command of a kid preacher and something angry in the corn."
+  - title: "The Faculty"
+    year: 1998
+    theme: "Creature Discomforts"
+    youtube_url: "https://www.youtube.com/watch?v=lIz1dwqr_h4"
+    description: "The teachers have been replaced by aliens, the drug dealer is the only one prepared, and nobody at Herrington High is getting out without an ear exam."
+  - title: "Slither"
+    year: 2006
+    theme: "Creature Discomforts"
+    youtube_url: "https://www.youtube.com/watch?v=Ez_tes5WX-4"
+    description: "Alien slugs, a husband with tentacles, and a Mr. Pibb meltdown. Small-town horror where the love story and the body horror turn out to be the same story."
 
 current_theme:
-  month: "September"
-  title: "Whose Kids Are These?!"
-  description: "This month, childhood innocence is cancelled. Two movies remind us that when the kids start acting strange, the adults are already behind."
+  month: "November"
+  title: "Happy ThankSlaughter"
+  description: "This month, gratitude is a threat. November brings a Thanksgiving movie where the holiday itself does the haunting: the guests arrive, they will not leave, and being thankful was never really the point."
   movies:
-    - "There's Something Wrong with the Children"
-    - "Let Me In"
+    - "Pilgrim"
