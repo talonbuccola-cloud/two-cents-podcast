@@ -22,6 +22,7 @@
 - name: "Grave Humor"
   movies: ["the-babysitter-2017", "tucker-and-dale-vs-evil-2010"]
 - name: "Not Just Another Halloween Movie"
+  banner: "/assets/theme-not-just-another-halloween-movie.svg"
   movies: ["murder-party-2007", "haunt-2019", "night-of-the-demons-1988", "the-house-of-the-devil-2009"]
 - name: "Terror in the Deep"
   banner: "/assets/theme-terror-in-the-deep.svg"
