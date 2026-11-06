@@ -48,7 +48,7 @@ Then there's Red, who is less a character than a delivery mechanism. Red is desp
 
 ### All the High School Girls Love Garth
 
-![Marlin](/assets/uploads/mandy-lane/marlin.svg){: style="float: left; width: 45%; margin: 0.4em 1em 0.6em 0;"}
+![Emmett attacks with a machete](/assets/uploads/mandy-lane/marlin.svg){: style="float: left; width: 45%; margin: 0.4em 1em 0.6em 0;"}
 
 The group road-trips out to the ranch in two cars — isolated land, no neighbors, and one ranch hand: Garth, somewhere in his late twenties or thirties, who watches them arrive with an unease the movie very much wants you to notice.
 
