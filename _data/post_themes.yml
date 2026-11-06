@@ -27,7 +27,7 @@
   pic: "/assets/theme-terror-in-the-deep.svg"
   movies: ["shark-night-2011", "the-black-demon-2023", "leviathan-1989", "the-deep-house-2021"]
 - name: "Home Is Where the Horror Is"
-  pic: "/assets/theme-home-is-where-the-horror-is.svg"
+  banner: "/assets/theme-home-is-where-the-horror-is.svg"
   movies: ["the-rental-2020", "youre-next-2011", "hes-out-there-2018", "villains-2019"]
 - name: "Influencers: Evil Goes Viral"
   pic: "/assets/theme-influencers.svg"
