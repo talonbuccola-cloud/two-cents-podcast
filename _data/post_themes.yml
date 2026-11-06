@@ -5,6 +5,7 @@
   pic: "/assets/theme-happy-thankslaughter.svg"
   movies: ["pilgrim-2019"]
 - name: "Creature Discomforts"
+  banner: "/assets/theme-creature-discomforts.svg"
   movies: ["slither-2006", "the-faculty-1998"]
 - name: "Whose Kids Are These?!"
   banner: "/assets/theme-whose-kids-are-these.svg"
