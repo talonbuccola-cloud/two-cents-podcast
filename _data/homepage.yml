@@ -17,11 +17,12 @@ featured_episodes:
     theme: "Creature Discomforts"
     youtube_url: "https://www.youtube.com/watch?v=Ez_tes5WX-4"
     description: "Alien slugs, a husband with tentacles, and a Mr. Pibb meltdown. Small-town horror where the love story and the body horror turn out to be the same story."
-  - title: "Exhibit A"
-    year: 2007
+  - title: "Children of the Corn"
+    year: 1984
     badge: "Most Watched"
-    youtube_url: "https://www.youtube.com/watch?v=6rdspi5BzQM"
-    description: "Found footage where the monster isn't a ghost — it's a dad lying about a promotion and refusing to stop, while his daughter's camcorder catches the whole collapse."
+    theme: "Red, White & Screwed"
+    youtube_url: "https://www.youtube.com/watch?v=esbKerLe4Gc"
+    description: "A teenager investigating disappearances discovers that the local children have traded bedtime for biblical murder under the command of a kid preacher and something angry in the corn."
 
 current_theme:
   month: "November"
