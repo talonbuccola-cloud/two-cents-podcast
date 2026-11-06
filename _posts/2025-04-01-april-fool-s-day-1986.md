@@ -55,3 +55,8 @@ Is it a perfect movie? No. The pacing drags in spots, and some of the red herrin
 April Fool’s Day is a movie that rewards you for not taking it too seriously. It’s playful, it’s weird, and it’s got just enough genuine craft behind it to make the whole thing work. If you go in expecting a straightforward slasher, you might walk away disappointed. But if you’re open to a movie that’s more interested in messing with your expectations than delivering what you came for, it’s a genuinely fun time.
 
 It’s a prank, but it’s a good prank. And sometimes, that’s enough.
+
+**Stuff we use / support the show:**
+- Own it on physical media via [Gruv](https://www.tkqlhce.com/click-101633208-15032169)
+- Watch with [Plex](https://www.kqzyfj.com/click-101633208-15734677)
+- We record this show with [Riverside](https://riverside.sjv.io/4aR7A9)

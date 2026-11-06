@@ -78,3 +78,8 @@ Is it perfect? Absolutely not. The pacing drags in spots, some scenes run too lo
 We're giving it five to six and a half cents out of ten. On first watch, it might have been a three--a decent enough indie horror with some confusing choices. On second watch, understanding the full scope of what the filmmakers were attempting, it jumps to at least a five or six. It's not going to revolutionize the genre, but it's smarter than it initially appears and deserves credit for trusting its audience to piece together the puzzle.
 
 Just maybe skip that final scene at the fertility clinic. We didn't need it, and honestly, the movie's better without it.
+
+**Stuff we use / support the show:**
+- Own it on physical media via [Gruv](https://www.tkqlhce.com/click-101633208-15032169)
+- Watch with [Plex](https://www.kqzyfj.com/click-101633208-15734677)
+- We record this show with [Riverside](https://riverside.sjv.io/4aR7A9)

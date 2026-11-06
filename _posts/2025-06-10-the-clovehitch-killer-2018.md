@@ -71,3 +71,8 @@ The Verdict
 The Clovehitch Killer isn't perfect. It telegraphs its twist immediately and has some structural issues. But it commits fully to its central premise: what if the pillar of your community, the man who taught you everything about being a "good person," was actually a serial killer? And what if you loved him anyway?
 It's a quiet, deeply uncomfortable film that earns its dread through mundane family scenes and a great performance from McDermott as a man desperately trying to hold together a life built on lies. The ending doesn't offer catharsis--just the grim reality that some problems don't have good solutions, only terrible choices and the people left to live with them.
 Six and a half cents out of ten. Worth watching if you like your horror psychological and your family dinners ruined forever.
+
+**Stuff we use / support the show:**
+- Own it on physical media via [Gruv](https://www.tkqlhce.com/click-101633208-15032169)
+- Watch with [Plex](https://www.kqzyfj.com/click-101633208-15734677)
+- We record this show with [Riverside](https://riverside.sjv.io/4aR7A9)

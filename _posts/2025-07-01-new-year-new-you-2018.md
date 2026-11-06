@@ -342,3 +342,8 @@ Then the moment Danielle is dead, Alexis puts on the same smile and takes the jo
 So perhaps *New Year, New You* does contain one genuinely effective wellness lesson:
 
 Be careful who you manifest yourself into.
+
+**Stuff we use / support the show:**
+- Own it on physical media via [Gruv](https://www.tkqlhce.com/click-101633208-15032169)
+- Watch with [Plex](https://www.kqzyfj.com/click-101633208-15734677)
+- We record this show with [Riverside](https://riverside.sjv.io/4aR7A9)

@@ -331,3 +331,8 @@ So *The Black Demon* ultimately gives us a megalodon large enough to swallow a m
 Nixon Oil wanted Paul to take the fall.
 
 Tlaloc just had a much more dramatic severance package.
+
+**Stuff we use / support the show:**
+- Own it on physical media via [Gruv](https://www.tkqlhce.com/click-101633208-15032169)
+- Watch with [Plex](https://www.kqzyfj.com/click-101633208-15734677)
+- We record this show with [Riverside](https://riverside.sjv.io/4aR7A9)

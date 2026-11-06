@@ -366,3 +366,8 @@ Dan also gives it **7 cents out of 10**.
 So maybe Father does know best.
 
 Just make sure he remembers which father he is before you hand him the carving knife.
+
+**Stuff we use / support the show:**
+- Own it on physical media via [Gruv](https://www.tkqlhce.com/click-101633208-15032169)
+- Watch with [Plex](https://www.kqzyfj.com/click-101633208-15734677)
+- We record this show with [Riverside](https://riverside.sjv.io/4aR7A9)
