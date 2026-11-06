@@ -12,18 +12,18 @@
   movies: ["chopping-mall-1986", "deadly-friend-1986"]
 - name: "Red, White, & Screwed"
   movies: ["summer-of-84-2018", "children-of-the-corn-1984"]
-- name: "Kills Like Teen Spirit"
-  banner: "/assets/theme-kills-like-teen-spirit.svg"
-  movies: ["cherry-falls-2000", "all-the-boys-love-mandy-lane-2006"]
-- name: "You Make Me Sick!"
-  banner: "/assets/theme-you-make-me-sick.svg"
-  movies: ["the-bay-2012", "the-night-of-something-strange-2016"]
-- name: "Spring Break, Broken Bones"
-  banner: "/assets/theme-spring-break-broken-bones.svg"
-  movies: ["piranha-3d-2010", "the-ruins-2008"]
 - name: "Grave Humor"
   banner: "/assets/theme-grave-humor.svg"
   movies: ["the-babysitter-2017", "tucker-and-dale-vs-evil-2010"]
+- name: "Spring Break, Broken Bones"
+  banner: "/assets/theme-spring-break-broken-bones.svg"
+  movies: ["piranha-3d-2010", "the-ruins-2008"]
+- name: "You Make Me Sick!"
+  banner: "/assets/theme-you-make-me-sick.svg"
+  movies: ["the-bay-2012", "the-night-of-something-strange-2016"]
+- name: "Kills Like Teen Spirit"
+  banner: "/assets/theme-kills-like-teen-spirit.svg"
+  movies: ["cherry-falls-2000", "all-the-boys-love-mandy-lane-2006"]
 - name: "Not Just Another Halloween Movie"
   banner: "/assets/theme-not-just-another-halloween-movie.svg"
   movies: ["murder-party-2007", "haunt-2019", "night-of-the-demons-1988", "the-house-of-the-devil-2009"]
