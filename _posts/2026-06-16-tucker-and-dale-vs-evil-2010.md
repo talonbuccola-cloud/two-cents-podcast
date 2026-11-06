@@ -51,7 +51,7 @@ Allison wakes the next morning in the cabin, understandably terrified — until 
 
 ### Running From Bees, Into a Tree
 
-
+![Allison, awake in the cabin, trying to keep the peace](/assets/uploads/tucker-and-dale/allison.svg){: style="float: right; width: 45%; margin: 0.4em 1em 0.6em 0;"}
 
 Chad, meanwhile, has organized a rescue mission. Evidence: none. Thinking: none. He's decided, and no further information will be processed. The kids creep up on the cabin while Tucker is outside cutting wood — and Tucker's chainsaw goes through a beehive hidden in a hollow log.
 
@@ -77,7 +77,7 @@ The tragic part is that the movie tells you exactly what's wrong, out loud, in a
 
 ### The Sheriff Believes Them, Briefly
 
-![Tucker and Dale, bloodied, in the cabin doorway](/assets/uploads/tucker-and-dale/doorway.svg){: style="float: right; width: 45%; margin: 0.4em 1em 0.6em 0;"}
+![The sheriff, with a nail-studded board on his head](/assets/uploads/tucker-and-dale/sheriff.svg){: style="float: right; width: 45%; margin: 0.4em 1em 0.6em 0;"}
 
 Chuck returns with the sheriff, the other surviving kids locked in the back of the cruiser. Tucker and Dale, who have just agreed that nobody will believe their day ("we had a doozy of a day" is the official summary), tell him the whole story anyway. He is reasonably skeptical. Then he leans on a cabin post — the same post Tucker leaned on earlier and dodged — and a board studded with nails drops off it and clobbers him in the face. The sheriff staggers out to radio for help and dies on the way.
 
@@ -95,7 +95,7 @@ Tucker, Dale, and Allison crawl out. Chad drags himself out of the wreckage afte
 
 ### Part Hillbilly
 
-![Dale, delighted, Tucker beside him](/assets/uploads/tucker-and-dale/laugh.svg){: style="float: left; width: 45%; margin: 0.4em 1em 0.6em 0;"}
+![Allison tied to a log on the sawmill conveyor](/assets/uploads/tucker-and-dale/sawmill.svg){: style="float: left; width: 45%; margin: 0.4em 1em 0.6em 0;"}
 
 The sawmill. Allison is tied to a log on a moving track, inching toward a giant buzz saw, because Chad has completed his transition from douchebag to full movie villain, face-licking and all. Dale breaks in wearing a welding-mask getup meant to look intimidating, which mainly intimidates Allison. The final fight is chainsaw versus iron bar, and it ends the way this movie ends things: Dale's thrown hatchet curves through the air with Wanted physics and slices exactly the one rope that drops Allison off the track an inch from the blade.
 
