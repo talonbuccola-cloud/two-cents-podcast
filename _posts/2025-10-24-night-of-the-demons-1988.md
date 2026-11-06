@@ -123,7 +123,8 @@ She's not going much higher than Dan. She agreed the music — written specifica
 Worth watching if you enjoy: three-minute cartoon credits, a demonic dance recital that refuses to end, and a lipstick scene that should come with a warning label — or if you want to watch the movie Dan finally gave a zero.
 
 Hide your lipstick.
+
 **Stuff we use / support the show:**
-- Own it on physical media via [Gruv](https://www.tkqlhce.com/click-101633208-15032169) (Gruv carries the Collector's Edition Blu-ray and 4K UHD of this one — Talon: swap in the movie-specific Gruv link here if you have one)
+- Own it on physical media via [Gruv](https://www.tkqlhce.com/click-101633208-15032169)
 - Watch with [Plex](https://www.kqzyfj.com/click-101633208-15734677)
 - We record this show with [Riverside](https://riverside.sjv.io/4aR7A9)
