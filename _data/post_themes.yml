@@ -1,0 +1,35 @@
+# Blog index grouping: themes newest-first, each with the episode slugs
+# (post filename without date) that belong to it. Posts not listed anywhere
+# fall into a "More Episodes" section at the bottom of the blog index.
+- name: "Happy ThankSlaughter"
+  movies: ["pilgrim-2019"]
+- name: "Creature Discomforts"
+  movies: ["slither-2006", "the-faculty-1998"]
+- name: "Whose Kids Are These?!"
+  movies: ["theres-something-wrong-with-the-children-2023", "let-me-in-2010"]
+- name: "Wired to Kill"
+  movies: ["chopping-mall-1986", "deadly-friend-1986"]
+- name: "Red, White, & Screwed"
+  movies: ["summer-of-84-2018", "children-of-the-corn-1984"]
+- name: "Kills Like Teen Spirit"
+  movies: ["cherry-falls-2000", "all-the-boys-love-mandy-lane-2006"]
+- name: "You Make Me Sick!"
+  movies: ["the-bay-2012"]
+- name: "Spring Break, Broken Bones"
+  movies: ["the-ruins-2008", "piranha-3d-2010"]
+- name: "Grave Humor"
+  movies: ["tucker-and-dale-vs-evil-2010", "the-babysitter-2017"]
+- name: "Not Just Another Halloween Movie"
+  movies: ["murder-party-2007", "haunt-2019", "night-of-the-demons-1988", "the-house-of-the-devil-2009"]
+- name: "Terror in the Deep"
+  movies: ["the-deep-house-2021", "shark-night-2011", "the-black-demon-2023", "leviathan-1989"]
+- name: "Home Is Where the Horror Is"
+  movies: ["the-rental-2020", "youre-next-2011", "hes-out-there-2018", "villains-2019"]
+- name: "Influencers: Evil Goes Viral"
+  movies: ["new-year-new-you-2018", "deadstream-2022", "sissy-2022", "no-escape-follow-me-2020"]
+- name: "Dad's Are Deadly"
+  movies: ["frailty-2001", "the-clovehitch-killer-2018", "the-stepfather-1987", "exhibit-a-2007"]
+- name: "Lakes"
+  movies: ["lake-mungo-2008", "lake-of-death-2019", "fever-lake-1997", "the-raft-1987", "eden-lake-2008"]
+- name: "Pranks"
+  movies: ["april-fool-s-day-1986", "june-9-2008", "making-monsters-2019", "the-burning-1981"]
