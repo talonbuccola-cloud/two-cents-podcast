@@ -24,7 +24,7 @@
 - name: "Not Just Another Halloween Movie"
   movies: ["murder-party-2007", "haunt-2019", "night-of-the-demons-1988", "the-house-of-the-devil-2009"]
 - name: "Terror in the Deep"
-  pic: "/assets/theme-terror-in-the-deep.svg"
+  banner: "/assets/theme-terror-in-the-deep.svg"
   movies: ["shark-night-2011", "the-black-demon-2023", "leviathan-1989", "the-deep-house-2021"]
 - name: "Home Is Where the Horror Is"
   banner: "/assets/theme-home-is-where-the-horror-is.svg"
@@ -33,10 +33,10 @@
   banner: "/assets/theme-influencers.svg"
   movies: ["new-year-new-you-2018", "deadstream-2022", "sissy-2022", "no-escape-follow-me-2020"]
 - name: "Dad's Are Deadly"
-  pic: "/assets/theme-dads-are-deadly.svg"
+  banner: "/assets/theme-dads-are-deadly.svg"
   movies: ["frailty-2001", "the-clovehitch-killer-2018", "the-stepfather-1987", "exhibit-a-2007"]
 - name: "Lakes"
-  pic: "/assets/theme-lakes.svg"
+  banner: "/assets/theme-lakes.svg"
   movies: ["lake-mungo-2008", "eden-lake-2008", "lake-of-death-2019", "fever-lake-1997", "the-raft-1987"]
 - name: "Pranks"
   banner: "/assets/theme-pranks.svg"
