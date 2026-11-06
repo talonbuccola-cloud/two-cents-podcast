@@ -16,7 +16,8 @@
   banner: "/assets/theme-kills-like-teen-spirit.svg"
   movies: ["cherry-falls-2000", "all-the-boys-love-mandy-lane-2006"]
 - name: "You Make Me Sick!"
-  movies: ["the-bay-2012"]
+  banner: "/assets/theme-you-make-me-sick.svg"
+  movies: ["the-bay-2012", "the-night-of-something-strange-2016"]
 - name: "Spring Break, Broken Bones"
   movies: ["piranha-3d-2010", "the-ruins-2008"]
 - name: "Grave Humor"
