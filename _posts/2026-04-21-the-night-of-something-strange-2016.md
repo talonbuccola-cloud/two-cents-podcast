@@ -60,6 +60,8 @@ The group abandons the beach for a motel, under a buzzing sign the camera admire
 
 Freddie and Jason ask for two rooms. The innkeeper establishes that they are not gay and sells them, in his words, two non-gay rooms. He also offers what sounds very much like "do you want to lick my balls?" and is apparently "do you want a wake-up call?" That is the joke. That is the whole joke.
 
+On the way out, Jason glances into a room off the lobby and gets a peek at whatever lives back there: a kid in a clown mask, playing with an older woman who could be a sister, could be a mother, in a room that belongs in an entirely different horror movie. Nobody explains it. Nobody even comments on it. File it away — this motel is running two pictures at once, and the second one is waiting its turn.
+
 Dirk and Pam are at the same motel, because this motel has gravity. Their enthusiastic encounter — he has just found another man's enormous photo evidence on her phone — ends with a bloody condom flicking blood into Dirk's eye. "We've done this before," she says. "Not with me," he answers, doing the math.
 
 Jason is voted out of the room so Freddie can be alone with Carrie, and negotiates down to sleeping in the car. Carrie, smelling of vomit and corn dogs, rejects Freddie's blue-balls speech and throws him out. He goes to the dumpster, drops his pants, knocks himself unconscious on its edge mid-activity, and lies there for the rest of the night. The innkeeper's parting wisdom, delivered by headlight: if you shake it more than three times, you're playing with it.
@@ -68,7 +70,9 @@ Jason is voted out of the room so Freddie can be alone with Carrie, and negotiat
 
 ![One of the infected, at the door](/assets/uploads/something-strange/zombie.svg){: style="float: left; width: 45%; margin: 0.4em 1em 0.6em 0;"}
 
-The clerk — fully turned, still smoking — smashes through the car window at Jason, who escapes into Carrie's room and chains the door. Carrie is in there looking rough, and she skips zombie small talk entirely: she demands he sleep with her, and the thrilled virgin complies. Mid-act she sits up with red eyes and bites his nipple off, then his chin.
+One stop back at the convenience store explains the clerk. After everyone left, she put out her cigarette and lit another one — smoking in the store, indoors, in 2016, decades after that stopped being legal anywhere, and entirely unbothered. Putting away a can, she turned and found the mailman behind her: the same mailman from the trailer, chest-punched and blood-fed, now fully turned. The movie shows it twice at once, color footage and black-and-white security feed at the identical angle, an arty little flourish in a film that has earned no others. He knocked her down and came at her slow while she crawled away across the store floor — still smoking. She would not put out that cigarette to save her own life, literally. He fell on her and assaulted her, because that is how this infection books its travel, and that is how the clerk joined the cast of the turned.
+
+So when the clerk — fully turned, still smoking — smashes through the car window at Jason, it is not a random arrival. who escapes into Carrie's room and chains the door. Carrie is in there looking rough, and she skips zombie small talk entirely: she demands he sleep with her, and the thrilled virgin complies. Mid-act she sits up with red eyes and bites his nipple off, then his chin.
 
 Dirk storms out on Pam over the phone, delivering the funniest line in the movie — "I've had better sex in boot camp," a comeback whose implications he does not examine — while Cornelius slips in behind him, smashes Pam with a heavy tube television, and finishes her with a bite this post is declining to map. Outside, the innkeeper brooms the bloody condom off Dirk's back and flings it toward the dumpster, where it lands on the unconscious Freddie's face. Freddie wakes, never notices, and resumes exactly what he was doing.
 
