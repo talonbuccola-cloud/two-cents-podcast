@@ -13,6 +13,7 @@
 - name: "Red, White, & Screwed"
   movies: ["summer-of-84-2018", "children-of-the-corn-1984"]
 - name: "Kills Like Teen Spirit"
+  banner: "/assets/theme-kills-like-teen-spirit.svg"
   movies: ["cherry-falls-2000", "all-the-boys-love-mandy-lane-2006"]
 - name: "You Make Me Sick!"
   movies: ["the-bay-2012"]
@@ -39,4 +40,4 @@
   movies: ["lake-mungo-2008", "eden-lake-2008", "lake-of-death-2019", "fever-lake-1997", "the-raft-1987"]
 - name: "Pranks"
   banner: "/assets/theme-pranks.svg"
-  movies: ["june-9-2008", "april-fool-s-day-1986", "the-burning-1981", "making-monsters-2019"]
+  movies: ["april-fool-s-day-1986", "june-9-2008", "the-burning-1981", "making-monsters-2019"]
