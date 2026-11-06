@@ -7,6 +7,7 @@
 - name: "Creature Discomforts"
   movies: ["slither-2006", "the-faculty-1998"]
 - name: "Whose Kids Are These?!"
+  banner: "/assets/theme-whose-kids-are-these.svg"
   movies: ["theres-something-wrong-with-the-children-2023", "let-me-in-2010"]
 - name: "Wired to Kill"
   banner: "/assets/theme-wired-to-kill.svg"
