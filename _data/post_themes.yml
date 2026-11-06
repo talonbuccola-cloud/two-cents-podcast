@@ -11,6 +11,7 @@
 - name: "Wired to Kill"
   movies: ["chopping-mall-1986", "deadly-friend-1986"]
 - name: "Red, White, & Screwed"
+  banner: "/assets/theme-red-white-and-screwed.svg"
   movies: ["summer-of-84-2018", "children-of-the-corn-1984"]
 - name: "Grave Humor"
   banner: "/assets/theme-grave-humor.svg"
