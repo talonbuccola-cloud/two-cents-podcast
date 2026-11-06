@@ -24,6 +24,12 @@ title: Blog
   {% if theme_posts.size > 0 %}
   <section class="theme-card" data-theme="{{ theme.name | downcase }}">
     <button class="theme-head" type="button" aria-expanded="false">
+      {% if theme.banner %}
+      <img class="theme-banner-img" src="{{ theme.banner }}" alt="{{ theme.name }}">
+      <span class="theme-info">
+        <span class="theme-count">{{ theme_posts.size }} episode{% if theme_posts.size != 1 %}s{% endif %} — tap to open</span>
+      </span>
+      {% else %}
       {% if theme.pic %}<img class="theme-pic" src="{{ theme.pic }}" alt="{{ theme.name }}">{% else %}
       <span class="theme-posters">
         {% for post in theme_posts limit: 4 %}{% if post.featured_image %}<img src="{{ post.featured_image }}" alt="" class="theme-poster">{% endif %}{% endfor %}
@@ -34,6 +40,7 @@ title: Blog
         <span class="theme-movies">{% for post in theme_posts %}{{ post.title }}{% unless forloop.last %} · {% endunless %}{% endfor %}</span>
         <span class="theme-count">{{ theme_posts.size }} episode{% if theme_posts.size != 1 %}s{% endif %} — tap to open</span>
       </span>
+      {% endif %}
     </button>
     <div class="theme-body" hidden>
       <ul class="blog-list">
