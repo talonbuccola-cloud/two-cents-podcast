@@ -38,4 +38,5 @@
   pic: "/assets/theme-lakes.svg"
   movies: ["lake-mungo-2008", "eden-lake-2008", "lake-of-death-2019", "fever-lake-1997", "the-raft-1987"]
 - name: "Pranks"
+  pic: "/assets/theme-pranks.svg"
   movies: ["june-9-2008", "april-fool-s-day-1986", "the-burning-1981", "making-monsters-2019"]
