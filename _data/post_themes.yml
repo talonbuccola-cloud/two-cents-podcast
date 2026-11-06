@@ -19,6 +19,7 @@
   banner: "/assets/theme-you-make-me-sick.svg"
   movies: ["the-bay-2012", "the-night-of-something-strange-2016"]
 - name: "Spring Break, Broken Bones"
+  banner: "/assets/theme-spring-break-broken-bones.svg"
   movies: ["piranha-3d-2010", "the-ruins-2008"]
 - name: "Grave Humor"
   movies: ["the-babysitter-2017", "tucker-and-dale-vs-evil-2010"]
