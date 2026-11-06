@@ -9,6 +9,7 @@
 - name: "Whose Kids Are These?!"
   movies: ["theres-something-wrong-with-the-children-2023", "let-me-in-2010"]
 - name: "Wired to Kill"
+  banner: "/assets/theme-wired-to-kill.svg"
   movies: ["chopping-mall-1986", "deadly-friend-1986"]
 - name: "Red, White, & Screwed"
   banner: "/assets/theme-red-white-and-screwed.svg"
