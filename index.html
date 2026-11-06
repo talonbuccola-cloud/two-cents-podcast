@@ -87,21 +87,23 @@ description: "Watch full episodes of the Two Cents horror movie podcast, explore
 
           <div class="cards">
           {% for episode in site.data.homepage.featured_episodes %}
-          <article class="card">
+          <div class="card-wrap">
             {% if episode.badge %}<div class="card-badge">{{ episode.badge }}</div>{% endif %}
-            <h3>{{ episode.title }} ({{ episode.year }})</h3>
-            {% if episode.theme %}<div class="meta">Theme: {{ episode.theme }}</div>{% endif %}
-            <p class="desc">{{ episode.description }}</p>
-            <div class="cardlinks">
-              <a
-                class="chip"
-                href="{{ episode.youtube_url }}"
-                target="_blank"
-                rel="noopener">
-                Watch
-              </a>
-            </div>
-          </article>
+            <article class="card">
+              <h3>{{ episode.title }} ({{ episode.year }})</h3>
+              {% if episode.theme %}<div class="meta">Theme: {{ episode.theme }}</div>{% endif %}
+              <p class="desc">{{ episode.description }}</p>
+              <div class="cardlinks">
+                <a
+                  class="chip"
+                  href="{{ episode.youtube_url }}"
+                  target="_blank"
+                  rel="noopener">
+                  Watch
+                </a>
+              </div>
+            </article>
+          </div>
           {% endfor %}
           </div>
         </div>
