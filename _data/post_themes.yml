@@ -30,7 +30,7 @@
   banner: "/assets/theme-home-is-where-the-horror-is.svg"
   movies: ["the-rental-2020", "youre-next-2011", "hes-out-there-2018", "villains-2019"]
 - name: "Influencers: Evil Goes Viral"
-  pic: "/assets/theme-influencers.svg"
+  banner: "/assets/theme-influencers.svg"
   movies: ["new-year-new-you-2018", "deadstream-2022", "sissy-2022", "no-escape-follow-me-2020"]
 - name: "Dad's Are Deadly"
   pic: "/assets/theme-dads-are-deadly.svg"
