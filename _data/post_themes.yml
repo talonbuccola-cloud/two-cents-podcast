@@ -22,6 +22,7 @@
   banner: "/assets/theme-spring-break-broken-bones.svg"
   movies: ["piranha-3d-2010", "the-ruins-2008"]
 - name: "Grave Humor"
+  banner: "/assets/theme-grave-humor.svg"
   movies: ["the-babysitter-2017", "tucker-and-dale-vs-evil-2010"]
 - name: "Not Just Another Halloween Movie"
   banner: "/assets/theme-not-just-another-halloween-movie.svg"
