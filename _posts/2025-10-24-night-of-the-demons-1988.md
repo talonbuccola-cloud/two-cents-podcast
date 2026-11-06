@@ -9,7 +9,7 @@ thumbnail_position: "center top"
 
 ## Night of the Demons (1988): Hide Your Lipstick
 
-![Night of the Demons cover art](/assets/uploads/night-of-the-demons-1988/poster.svg){: style="float: right; max-width: 30%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
+![Night of the Demons theatrical poster](/assets/uploads/night-of-the-demons-1988/poster.svg){: style="float: right; max-width: 30%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
 
 Some Halloween parties end with a noise complaint.
 
@@ -45,7 +45,7 @@ Then there's Judy's sweater. Alone in her room, she pulls her pants and underwea
 Across town, Angela and Suzanne are at a convenience store. The introduction is Suzanne bent way over, fluffy petticoat-style layers on full display, holding the attention of the two clerks while Angela stuffs stolen snacks into a huge bag and walks right out past them. The bent-over girl reads as Judy at first, because the fluffy underskirt matched what Judy had just put on. The clerks are the quintessential nerdy-looking guys of the '80s — oily, greasy, glasses.
 ### Stooge Is Exactly Who You Think He Is
 
-![The group reflected in the Hull House mirror](/assets/uploads/night-of-the-demons-1988/mirror.svg){: style="float: left; max-width: 45%; height: auto; margin: 0.25em 1.1em 0.9em 0;"}
+![The group reflected in the mirror during the seance](/assets/uploads/night-of-the-demons-1988/mirror.svg){: style="float: left; max-width: 45%; height: auto; margin: 0.25em 1.1em 0.9em 0;"}
 
 Then the movie introduces Stooge, and the hatred is instant.
 
@@ -69,7 +69,7 @@ Jay — Judy's date, who earlier failed to get Judy to do anything more than let
 There is also a completely random moment where Suzanne lifts her dress and is wearing no underwear at all, for no reason. Porn and regular movies should not mix; these lines should not cross.
 ### A Dance That Refuses to Die
 
-![Angela floating above the Hull House floor](/assets/uploads/night-of-the-demons-1988/dance.svg){: style="float: left; max-width: 45%; height: auto; margin: 0.25em 1.1em 0.9em 0;"}
+![Angela dancing alone in Hull House](/assets/uploads/night-of-the-demons-1988/dance.svg){: style="float: left; max-width: 45%; height: auto; margin: 0.25em 1.1em 0.9em 0;"}
 
 Angela is possessed next, and her possession is announced by a dance — part Flashdance, part satanic ritual, and one hundred percent way too long. Asked if he managed to stay awake during it, Dan admits he dozed off a couple of times. Like the credits, the dance just goes on forever, with Angela pulling her dress up unnecessarily high, which is the entire reason the scene exists.
 
@@ -88,7 +88,7 @@ So Sal redeems himself for exactly one scene, gets launched out of it by a slap,
 
 ### Check for Gas Leaks by Lighting Them
 
-![Angela, fully possessed](/assets/uploads/night-of-the-demons-1988/demon.svg){: style="float: right; max-width: 45%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
+![Angela, possessed](/assets/uploads/night-of-the-demons-1988/possessed.svg){: style="float: right; max-width: 45%; height: auto; margin: 0.25em 0 0.9em 1.1em;"}
 
 Judy, meanwhile, completes the standard final-girl evolution: meek and prim and proper at the start, setting demons on fire by the end. She and Roger — still here, still terrified — hide in the crematorium, where Judy opens a door onto an oven and pulls out a skull.
 
