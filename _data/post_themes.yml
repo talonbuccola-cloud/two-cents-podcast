@@ -2,6 +2,7 @@
 # (post filename without date) that belong to it. Posts not listed anywhere
 # fall into a "More Episodes" section at the bottom of the blog index.
 - name: "Happy ThankSlaughter"
+  pic: "/assets/theme-happy-thankslaughter.svg"
   movies: ["pilgrim-2019"]
 - name: "Creature Discomforts"
   movies: ["slither-2006", "the-faculty-1998"]
@@ -16,20 +17,25 @@
 - name: "You Make Me Sick!"
   movies: ["the-bay-2012"]
 - name: "Spring Break, Broken Bones"
-  movies: ["the-ruins-2008", "piranha-3d-2010"]
+  movies: ["piranha-3d-2010", "the-ruins-2008"]
 - name: "Grave Humor"
-  movies: ["tucker-and-dale-vs-evil-2010", "the-babysitter-2017"]
+  movies: ["the-babysitter-2017", "tucker-and-dale-vs-evil-2010"]
 - name: "Not Just Another Halloween Movie"
   movies: ["murder-party-2007", "haunt-2019", "night-of-the-demons-1988", "the-house-of-the-devil-2009"]
 - name: "Terror in the Deep"
-  movies: ["the-deep-house-2021", "shark-night-2011", "the-black-demon-2023", "leviathan-1989"]
+  pic: "/assets/theme-terror-in-the-deep.svg"
+  movies: ["shark-night-2011", "the-black-demon-2023", "leviathan-1989", "the-deep-house-2021"]
 - name: "Home Is Where the Horror Is"
+  pic: "/assets/theme-home-is-where-the-horror-is.svg"
   movies: ["the-rental-2020", "youre-next-2011", "hes-out-there-2018", "villains-2019"]
 - name: "Influencers: Evil Goes Viral"
+  pic: "/assets/theme-influencers.svg"
   movies: ["new-year-new-you-2018", "deadstream-2022", "sissy-2022", "no-escape-follow-me-2020"]
 - name: "Dad's Are Deadly"
+  pic: "/assets/theme-dads-are-deadly.svg"
   movies: ["frailty-2001", "the-clovehitch-killer-2018", "the-stepfather-1987", "exhibit-a-2007"]
 - name: "Lakes"
-  movies: ["lake-mungo-2008", "lake-of-death-2019", "fever-lake-1997", "the-raft-1987", "eden-lake-2008"]
+  pic: "/assets/theme-lakes.svg"
+  movies: ["lake-mungo-2008", "eden-lake-2008", "lake-of-death-2019", "fever-lake-1997", "the-raft-1987"]
 - name: "Pranks"
-  movies: ["april-fool-s-day-1986", "june-9-2008", "making-monsters-2019", "the-burning-1981"]
+  movies: ["june-9-2008", "april-fool-s-day-1986", "the-burning-1981", "making-monsters-2019"]

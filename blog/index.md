@@ -24,9 +24,11 @@ title: Blog
   {% if theme_posts.size > 0 %}
   <section class="theme-card" data-theme="{{ theme.name | downcase }}">
     <button class="theme-head" type="button" aria-expanded="false">
+      {% if theme.pic %}<img class="theme-pic" src="{{ theme.pic }}" alt="{{ theme.name }}">{% else %}
       <span class="theme-posters">
         {% for post in theme_posts limit: 4 %}{% if post.featured_image %}<img src="{{ post.featured_image }}" alt="" class="theme-poster">{% endif %}{% endfor %}
       </span>
+      {% endif %}
       <span class="theme-info">
         <span class="theme-name">{{ theme.name }}</span>
         <span class="theme-movies">{% for post in theme_posts %}{{ post.title }}{% unless forloop.last %} · {% endunless %}{% endfor %}</span>
